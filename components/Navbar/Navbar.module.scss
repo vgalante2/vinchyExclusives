@@ -1,0 +1,63 @@
+/* Navbar.module.scss */
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
+
+$primary-color: #007bff;
+$hover-color: #53aef9;
+$active-color: rgb(188, 87, 242);
+$navbar-background: #000000;
+$text-color: #ffffff;
+
+.logo {
+    margin-top: 20px;
+    height: 100px;
+    width: 180px;
+}
+
+.navContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    background-color: $navbar-background;
+    color: $text-color;
+}
+
+.nav {
+    
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    @media (max-width: 768px) {
+        display: none;
+    }
+}
+
+.nav.show {
+    display: block;
+    position: absolute;
+    width: 100%;
+    top: 60px; // Adjust as per your header height
+    left: 0;
+    background-color: $navbar-background;
+}
+
+.navItem {
+    color: $text-color;
+    text-decoration: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-family: 'Archivo Black', sans-serif;
+    &:hover {
+        color: $hover-color;
+    }
+    &:active {
+        background-color: $active-color;
+    }
+}
+
+.navBtn, .menuBtn {
+    display: none;
+    @media (max-width: 768px) {
+        display: block;
+    }
+}

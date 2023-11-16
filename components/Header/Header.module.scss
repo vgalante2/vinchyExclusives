@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Fredoka:wght@600&display=swap');
+
+
+
+.section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+.textContainer{
+    z-index: 10;
+    max-width: 600px; /* Maximum width */
+    text-align: center; /* Center the text */
+  
+
+    h1 {
+        font-family: 'Fredoka', sans-serif;
+        font-size: 6rem;
+        margin-bottom: 20px;
+    }
+
+    p {
+        font-family: 'Fredoka', sans-serif;
+        font-size: 1.5rem;
+        text-align: center;
+        z-index: 0;
+        margin-bottom: 20px;
+    }
+
+    .trip {
+        color: #83A2FF;
+    }
+
+    .heroBtn {
+        text-decoration: none;
+      background-color: #BEADFA !important;
+      padding: 14px 40px;
+        display: inline-block;
+        color: black;
+       font-size: 18px;
+      max-width: 100%;
+       height: 50px;
+       font-family: 'Fredoka', sans-serif;
+
+ 
+  cursor: pointer;
+  border-radius: 30px;
+        background-color: rgb(151, 85, 244);
+        }
+}
+
+
+
+.fog {
+ position: relative;
+ bottom: -170px;
+}
+
+
+
+
+
+
+
+
+
+
+.banner {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    
+}
+
+.banner .clouds {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height:100%;
+    overflow: hidden;
+}
+
+.banner .clouds img {
+    position: absolute;
+    bottom: 0;
+    max-width: 100%;
+    animation: animate calc(15s * var(--i)) linear infinite;
+}
+
+@keyframes animate {
+0% {
+    transform: translateX(-100%);
+}
+100% {
+    transform: translateX(100%);
+}
+}
+
+
+.clouds section {
+    position: relative;
+    padding: 75px 100px;
+}

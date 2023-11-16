@@ -1,0 +1,24 @@
+
+
+
+.clothesCard {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  
+}
+
+.name {
+
+    color: black !important;
+}
+
+.price {
+    color: blue;
+}
+
+.image {
+    height: 250px;
+    width: auto;
+}
