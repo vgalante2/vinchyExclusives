@@ -11,18 +11,18 @@
 },
 {
     "id": 1,
-    "imgSrc": "/",
+    "imgSrc": "./faded.png",
     "name": "faded",
-    "price": 49.99,
+    "price": 34.99,
     "description": "descrioption",
     "size": ["small, medium, large"]
 
 },
 {
     "id": 2,
-    "imgSrc": "/",
-    "name": "misfits",
-    "price": 49.99,
+    "imgSrc": "./set.png",
+    "name": "batman",
+    "price": 89.99,
     "description": "descrioption",
     "size": ["small, medium, large"]
 

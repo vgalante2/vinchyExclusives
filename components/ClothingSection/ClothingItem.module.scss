@@ -10,15 +10,18 @@
 }
 
 .name {
-
+    font-family: 'Fredoka', sans-serif;
     color: black !important;
+    margin-top: 4px;
 }
 
 .price {
+    margin-top: 5px;
     color: blue;
+    font-family: 'Fredoka', sans-serif;
 }
 
 .image {
-    height: 250px;
+    height: 300px;
     width: auto;
 }
