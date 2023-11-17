@@ -9,7 +9,7 @@ function Clothes({imgSrc, name, price}) {
        <div className={styles.clothesCard}>
        <img className={styles.image} src={imgSrc}/>  
        <h2 className={styles.name}> {name}</h2>
-       <p className={styles.price}> {price}</p>
+       <p className={styles.price}>${price}</p>
        </div>
     );
 }

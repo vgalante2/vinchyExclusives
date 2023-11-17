@@ -1,28 +1,30 @@
-import React, { useEffect } from 'react';
-import styles from './Promo.module.scss';
-
+import styles from './Promo.module.scss'
 
 function Promo() {
-    return (
+
+
+return (
+    <section className={styles.promoSection}>
+     <div className={styles.promoContent}>
+     <div className={styles.promoOne}>
+
+     </div>
+     <div className={styles.promoTwo}>
         
-        <div className={styles.videoTextContainer}>
-            <video 
-                className={styles.video} 
-                autoPlay 
-                loop 
-                muted 
-                playsInline
-                src="/vid.mp4" // Replace with your video URL
-            >
-            </video>
-           <div className={styles.textBox}>
-            <h1 className={styles.text}>exclusives by cenzo*</h1> 
-            </div>
         </div>
+        <div className={styles.promoThree}>
         
-    );
-};
+        </div>
+        <div className={styles.promoFour}>
+        
+        </div>
+
+     </div>
+    </section>
+)
+
+
+}
+
 
 export default Promo;
-
-    

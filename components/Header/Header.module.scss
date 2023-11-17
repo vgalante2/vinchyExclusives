@@ -9,7 +9,7 @@
     justify-content: center;
 
     @media(max-width: 767px) {
-       height: 100vh;
+       height: 70vh;
      }
 }
 
@@ -75,8 +75,9 @@
 
 
 .fog {
- position: relative;
- bottom: -170px;
+ position: absolute;
+ bottom: 0;
+ left: 0;
 
 
 }
