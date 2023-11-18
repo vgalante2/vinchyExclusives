@@ -5,6 +5,7 @@
     "imgSrc": "./heart.png",
     "name": "jaded",
     "price": 49.99,
+    "category": "hoodies",
     "description": "descrioption",
     "size": ["small, medium, large"]
 
@@ -14,6 +15,7 @@
     "imgSrc": "./faded.png",
     "name": "faded",
     "price": 34.99,
+    "category": "shirts",
     "description": "descrioption",
     "size": ["small, medium, large"]
 
@@ -23,6 +25,7 @@
     "imgSrc": "./set.png",
     "name": "batman",
     "price": 89.99,
+    "category": "combo",
     "description": "descrioption",
     "size": ["small, medium, large"]
 
@@ -32,6 +35,7 @@
     "imgSrc": "./bear.png",
     "name": "honeycomb",
     "price": 49.99,
+    "category": "hoodies",
     "description": "descrioption",
     "size": ["small, medium, large"]
 
@@ -41,6 +45,7 @@
     "imgSrc": "./ufo.png",
     "name": "firmament",
     "price": 49.99,
+    "category": "hoodies",
     "description": "descrioption",
     "size": ["small, medium, large"]
 

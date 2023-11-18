@@ -1,23 +1,34 @@
+import React, { useState } from 'react';
 import styles from './Promo.module.scss'
 
 function Promo() {
+const [itsClicked, setItsClicked] = useState(false);
 
+
+const btnClicked =  () => {
+
+  setItsClicked(true);
+
+}
 
 return (
     <section className={styles.promoSection}>
+    
      <div className={styles.promoContent}>
-     <div className={styles.promoOne}>
+     
+     <button   className={ `${styles.promoOne} ${styles.box}`}>
 
-     </div>
-     <div className={styles.promoTwo}>
+     </button>
+     <button onClick={btnClicked} className={ `${styles.promoTwo} ${styles.box}`}>
         
-        </div>
-        <div className={styles.promoThree}>
+        </button>
+        <button onClick={btnClicked} className={ `${styles.promoThree} ${styles.box}`}>
         
-        </div>
-        <div className={styles.promoFour}>
+        </button>
+        <button onClick={btnClicked}  className={ `${styles.promoFour} ${styles.box}`}>
         
-        </div>
+        </button>
+        
 
      </div>
     </section>
