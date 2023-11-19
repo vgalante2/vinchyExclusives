@@ -50,6 +50,17 @@
     "size": ["small, medium, large"]
 
 }
+,
+{
+    "id": 5,
+    "imgSrc": "./divinesweats.png",
+    "name": "divine",
+    "price": 44.99,
+    "category": "sweatpants",
+    "description": "descrioption",
+    "size": ["small, medium, large"]
+
+}
 
 
 
