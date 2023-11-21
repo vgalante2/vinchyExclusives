@@ -1,11 +1,17 @@
 
-import { Inter } from 'next/font/google'
-import styles from '@/styles/Home.module.scss'
-import variables from '../styles/variables.module.scss'
-
-
-const inter = Inter({ subsets: ['latin'] })
+import Header from '../components/Header/Header.jsx';
+import BigText from '../components/BigText/BigText.jsx';
+import ClothingSection from '../components/ClothingSection/ClothingSection.jsx';
+import Promo from '../components/Promo/Promo.jsx';
 
 export default function HomePage() {
-  
+  return (
+    <>
+      <Header />
+      <ClothingSection />
+      <BigText />
+      <Promo />
+      {/* Other components specific to the homepage */}
+    </>
+  );
 }
