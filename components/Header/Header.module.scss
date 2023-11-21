@@ -54,7 +54,7 @@
 
     .heroBtn {
         text-decoration: none;
-      background-color: #BEADFA !important;
+      background-color: #643cf8;
       padding: 14px 40px;
         display: inline-block;
         color: black;
@@ -63,6 +63,10 @@
        height: 50px;
        font-family: 'Fredoka', sans-serif;
 
+
+      &:hover {
+        background-color: #b39ff8;
+      }
       
 
  
@@ -70,7 +74,11 @@
   border-radius: 30px;
         background-color: rgb(151, 85, 244);
         }
-}
+
+
+    }
+
+    
 
 
 
