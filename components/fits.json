@@ -61,6 +61,17 @@
     "size": ["small, medium, large"]
 
 }
+,
+{
+    "id": 6,
+    "imgSrc": "./tee2.png",
+    "name": "bubbles",
+    "price": 34.99,
+    "category": "shirts",
+    "description": "descrioption",
+    "size": ["small, medium, large"]
+
+}
 
 
 
