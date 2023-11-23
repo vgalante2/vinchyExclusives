@@ -2,14 +2,16 @@ import fitsData from '../../components/fits.json';
  import styles from "./hoodies.module.scss"
 
  function HoodiesPage() {
+const hoodies = fitsData.filter(item => item.category === 'hoodies');
+
   return (
     <div className={styles.hoodiesSection}>
-     <h1>hoodies</h1>
+     <h1 className={styles.heading} >hoodies</h1>
       <div className={styles.hoodiesContainer}>
-        {fitsData.map((fit) => (
-          <div key={fit.id} className={styles.hoodiesContent}>
-            <img className={styles.fitImg} src={fit.imgSrc} alt={fit.name} />
-            <h2>{fit.name}</h2>
+        {hoodies.map(hoodie => (
+          <div key={hoodie.id} className={styles.hoodiesContent}>
+            <img className={styles.fitImg} src={hoodie.imgSrc} alt={hoodie.name} />
+            <h2>{hoodie.name}</h2>
           </div>
         ))}
       </div>
