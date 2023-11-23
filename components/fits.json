@@ -65,6 +65,17 @@
 {
     "id": 6,
     "imgSrc": "./tee2.png",
+    "name": "classicv",
+    "price": 34.99,
+    "category": "shirts",
+    "description": "descrioption",
+    "size": ["small, medium, large"]
+
+}
+,
+{
+    "id": 7,
+    "imgSrc": "./tee3.png",
     "name": "bubbles",
     "price": 34.99,
     "category": "shirts",
