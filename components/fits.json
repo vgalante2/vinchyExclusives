@@ -42,7 +42,7 @@
 },
 {
     "id": 4,
-    "imgSrc": "./ufo.png",
+    "imgSrc": "./firmament.png",
     "name": "firmament",
     "price": 49.99,
     "category": "hoodies",
