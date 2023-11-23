@@ -92,6 +92,16 @@
     "description": "descrioption",
     "size": ["small, medium, large"]
 
+},
+{
+    "id": 9,
+    "imgSrc": "./tee5.png",
+    "name": "curved classic",
+    "price": 34.99,
+    "category": "shirts",
+    "description": "descrioption",
+    "size": ["small, medium, large"]
+
 }
 
 
