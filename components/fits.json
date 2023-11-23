@@ -102,6 +102,16 @@
     "description": "descrioption",
     "size": ["small, medium, large"]
 
+},
+{
+    "id": 10,
+    "imgSrc": "./tee6.png",
+    "name": "Skel",
+    "price": 34.99,
+    "category": "shirts",
+    "description": "descrioption",
+    "size": ["small, medium, large"]
+
 }
 
 
