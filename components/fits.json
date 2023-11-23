@@ -82,6 +82,16 @@
     "description": "descrioption",
     "size": ["small, medium, large"]
 
+},
+{
+    "id": 8,
+    "imgSrc": "./tee4.png",
+    "name": "davinci",
+    "price": 34.99,
+    "category": "shirts",
+    "description": "descrioption",
+    "size": ["small, medium, large"]
+
 }
 
 
