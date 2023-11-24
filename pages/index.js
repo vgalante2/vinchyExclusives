@@ -3,6 +3,7 @@ import Header from '../components/Header/Header.jsx';
 import BigText from '../components/BigText/BigText.jsx';
 import ClothingSection from '../components/ClothingSection/ClothingSection.jsx';
 import Promo from '../components/Promo/Promo.jsx';
+import Footer from '../components/Footer/Footer.jsx';
 
 export default function HomePage() {
   return (
@@ -11,6 +12,7 @@ export default function HomePage() {
       <ClothingSection />
       <BigText />
       <Promo />
+      <Footer />
       {/* Other components specific to the homepage */}
     </>
   );
