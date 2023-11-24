@@ -1,7 +1,11 @@
+import styles from "./Footer.module.scss"
+
 function Footer() {
 
     return (
-<div></div>
+<div className={styles.footerSection}>
+    <p> exclusives by cenzo*</p>
+</div>
     )
 }
 
