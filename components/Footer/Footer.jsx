@@ -4,7 +4,7 @@ function Footer() {
 
     return (
 <div className={styles.footerSection}>
-    <p> exclusives by cenzo*</p>
+    <p>copyright © vinchy exclusives* 2023</p>
 </div>
     )
 }
