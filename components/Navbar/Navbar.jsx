@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import MenuIcon from '@mui/icons-material/Menu';
 import CloseIcon from '@mui/icons-material/Close';
 import styles from './Navbar.module.scss';
+import Link from 'next/link'
 
 function Navbar() {
     const [isMobile, setIsMobile] = useState(false);
@@ -25,7 +26,7 @@ function Navbar() {
         <div className={styles.navContainer}>
             <img className={styles.logo} src="/vinchylogo.png" alt="logo" />
             <nav className={`${styles.nav} ${menuOpen ? styles.show : ''}`}>
-                <a className={styles.navItem} href="/#home">Home</a>
+                <Link className={styles.navItem} href="/">Home</Link>
                 <a className={styles.navItem} href="/#about">About</a>
                 <a className={styles.navItem} href="/#contact">Contact</a>
                 {isMobile && (
