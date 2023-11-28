@@ -25,7 +25,7 @@
     "imgSrc": "./set.png",
     "name": "batman",
     "price": 89.99,
-    "category": "combo",
+    "category": "sets",
     "description": "descrioption",
     "size": ["small, medium, large"]
 

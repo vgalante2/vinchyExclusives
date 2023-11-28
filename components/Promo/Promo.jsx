@@ -4,14 +4,10 @@ import { useRouter } from 'next/router';
 
 
 function Promo() {
-const [itsClicked, setItsClicked] = useState(false);
+
 const router = useRouter();
 
-const btnClicked =  () => {
 
-  setItsClicked(true);
-
-}
 
 const navigatePage = (path) => {
   router.push(path);
@@ -32,7 +28,7 @@ return (
         <button onClick={() => navigatePage('/pants')} className={ `${styles.promoThree} ${styles.box}`}>Pants
         
         </button>
-        <button onClick={() => navigatePage('/')}  className={ `${styles.promoFour} ${styles.box}`}>Sets
+        <button onClick={() => navigatePage('/sets')}  className={ `${styles.promoFour} ${styles.box}`}>Sets
         
         </button>
         
