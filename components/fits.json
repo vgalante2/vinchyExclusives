@@ -154,6 +154,16 @@
     "description": "descrioption",
     "size": ["small, medium, large"]
 
+},
+{
+    "id": 14,
+    "imgSrc": "./set2.png",
+    "name": "divine",
+    "price": 89.99,
+    "category": "sets",
+    "description": "descrioption",
+    "size": ["small, medium, large"]
+
 }
 
 
