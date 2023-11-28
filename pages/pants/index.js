@@ -9,9 +9,9 @@ const pants = fitsData.filter(item => item.category === 'pants');
      <h1 className={styles.heading} >Pants</h1>
       <div className={styles.pantsContainer}>
         {pants.map(pant => (
-          <div key={shirt.id} className={styles.pantsContent}>
-            <img className={styles.fitImg} src={shirt.imgSrc} alt={shirt.name} />
-            <h2>{shirt.name}</h2>
+          <div key={pant.id} className={styles.pantsContent}>
+            <img className={styles.fitImg} src={pant.imgSrc} alt={pant.name} />
+            <h2>{pant.name}</h2>
           </div>
         ))}
       </div>

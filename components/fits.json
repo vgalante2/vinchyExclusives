@@ -56,7 +56,7 @@
     "imgSrc": "./divinesweats.png",
     "name": "divine",
     "price": 44.99,
-    "category": "sweatpants",
+    "category": "pants",
     "description": "descrioption",
     "size": ["small, medium, large"]
 
@@ -109,6 +109,37 @@
     "name": "Skel",
     "price": 34.99,
     "category": "shirts",
+    "description": "descrioption",
+    "size": ["small, medium, large"]
+
+},
+{
+    "id": 11,
+    "imgSrc": "./sweats2.png",
+    "name": "classic",
+    "price": 44.99,
+    "category": "pants",
+    "description": "descrioption",
+    "size": ["small, medium, large"]
+
+},
+{
+    "id": 12,
+    "imgSrc": "./sweats3.png",
+    "name": "floral",
+    "price": 44.99,
+    "category": "pants",
+    "description": "descrioption",
+    "size": ["small, medium, large"]
+
+}
+,
+{
+    "id": 12,
+    "imgSrc": "./hoodie4.png",
+    "name": "divine",
+    "price": 49.99,
+    "category": "hoodies",
     "description": "descrioption",
     "size": ["small, medium, large"]
 
