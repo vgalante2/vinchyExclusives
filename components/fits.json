@@ -144,6 +144,17 @@
     "size": ["small, medium, large"]
 
 }
+,
+{
+    "id": 13,
+    "imgSrc": "./hoodie5.png",
+    "name": "divine",
+    "price": 49.99,
+    "category": "hoodies",
+    "description": "descrioption",
+    "size": ["small, medium, large"]
+
+}
 
 
 
