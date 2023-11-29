@@ -28,6 +28,7 @@ function Navbar() {
             <nav className={`${styles.nav} ${menuOpen ? styles.show : ''}`}>
                 <Link className={styles.navItem} href="/">Home</Link>
                 <a className={styles.navItem} href="/#about">About</a>
+                <a className={styles.navItem} href="/#catalog">Catalog</a>
                 <a className={styles.navItem} href="/#contact">Contact</a>
                 {isMobile && (
                     <button className={styles.navBtn} onClick={showNavbar}>
