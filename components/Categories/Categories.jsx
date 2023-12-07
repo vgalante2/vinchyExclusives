@@ -1,9 +1,9 @@
 import React, { useState } from 'react';
-import styles from './Promo.module.scss'
+import styles from './Categories.module.scss'
 import { useRouter } from 'next/router';
 
 
-function Promo() {
+function Categories() {
 
 const router = useRouter();
 
@@ -41,4 +41,4 @@ return (
 }
 
 
-export default Promo;
+export default Categories;
