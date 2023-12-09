@@ -7,11 +7,12 @@ function ClothingSection() {
         <section >
             <div className={styles.clothingSection}>
                 {fitsData.map(fit => (
-                    <ClothingItem key={fit.id} {...fit} />
+                    <ClothingItem id={fit.id} imgSrc={fit.imgSrc} name={fit.name} price={fit.price} />
+
                 ))}
             </div>
         </section>
     );
 }
 
-export default ClothingSection;
+export default ClothingSection; 

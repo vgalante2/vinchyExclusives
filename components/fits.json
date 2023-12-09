@@ -2,7 +2,7 @@
 
 {
     "id": 0,
-    "imgSrc": "./heart.png",
+    "imgSrc": "/heart.png",
     "name": "jaded",
     "price": 49.99,
     "category": "hoodies",
@@ -12,7 +12,7 @@
 },
 {
     "id": 1,
-    "imgSrc": "./faded.png",
+    "imgSrc": "/faded.png",
     "name": "faded",
     "price": 34.99,
     "category": "shirts",
@@ -22,7 +22,7 @@
 },
 {
     "id": 2,
-    "imgSrc": "./set.png",
+    "imgSrc": "/set.png",
     "name": "batman",
     "price": 89.99,
     "category": "sets",
@@ -32,7 +32,7 @@
 },
 {
     "id": 3,
-    "imgSrc": "./bear.png",
+    "imgSrc": "/bear.png",
     "name": "honeycomb",
     "price": 49.99,
     "category": "hoodies",
@@ -42,7 +42,7 @@
 },
 {
     "id": 4,
-    "imgSrc": "./firmament.png",
+    "imgSrc": "/firmament.png",
     "name": "firmament",
     "price": 49.99,
     "category": "hoodies",
@@ -53,7 +53,7 @@
 ,
 {
     "id": 5,
-    "imgSrc": "./divinesweats.png",
+    "imgSrc": "/divinesweats.png",
     "name": "divine",
     "price": 44.99,
     "category": "pants",
@@ -64,7 +64,7 @@
 ,
 {
     "id": 6,
-    "imgSrc": "./tee2.png",
+    "imgSrc": "/tee2.png",
     "name": "classicv",
     "price": 34.99,
     "category": "shirts",
@@ -75,7 +75,7 @@
 ,
 {
     "id": 7,
-    "imgSrc": "./tee3.png",
+    "imgSrc": "/tee3.png",
     "name": "bubbles",
     "price": 34.99,
     "category": "shirts",
@@ -85,7 +85,7 @@
 },
 {
     "id": 8,
-    "imgSrc": "./tee4.png",
+    "imgSrc": "/tee4.png",
     "name": "davinci",
     "price": 34.99,
     "category": "shirts",
@@ -95,7 +95,7 @@
 },
 {
     "id": 9,
-    "imgSrc": "./tee5.png",
+    "imgSrc": "/tee5.png",
     "name": "curved classic",
     "price": 34.99,
     "category": "shirts",
@@ -105,7 +105,7 @@
 },
 {
     "id": 10,
-    "imgSrc": "./tee6.png",
+    "imgSrc": "/tee6.png",
     "name": "Skel",
     "price": 34.99,
     "category": "shirts",
@@ -115,7 +115,7 @@
 },
 {
     "id": 11,
-    "imgSrc": "./sweats2.png",
+    "imgSrc": "/sweats2.png",
     "name": "classic",
     "price": 44.99,
     "category": "pants",
@@ -125,7 +125,7 @@
 },
 {
     "id": 12,
-    "imgSrc": "./sweats3.png",
+    "imgSrc": "/sweats3.png",
     "name": "floral",
     "price": 44.99,
     "category": "pants",
@@ -136,7 +136,7 @@
 ,
 {
     "id": 12,
-    "imgSrc": "./hoodie4.png",
+    "imgSrc": "/hoodie4.png",
     "name": "divine",
     "price": 49.99,
     "category": "hoodies",
@@ -147,7 +147,7 @@
 ,
 {
     "id": 13,
-    "imgSrc": "./hoodie5.png",
+    "imgSrc": "/hoodie5.png",
     "name": "divine",
     "price": 49.99,
     "category": "hoodies",
@@ -157,7 +157,7 @@
 },
 {
     "id": 14,
-    "imgSrc": "./set2.png",
+    "imgSrc": "/set2.png",
     "name": "divine",
     "price": 89.99,
     "category": "sets",
