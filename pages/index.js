@@ -1,6 +1,6 @@
 
 import Header from '../components/Header/Header.jsx';
-import BigText from '../components/BigText/BigText.jsx';
+// import BigText from '../components/BigText/BigText.jsx';
 import ClothingSection from '../components/ClothingSection/ClothingSection.jsx';
 import Categories from '../components/Categories/Categories.jsx';
 import About from '../components/About/About.jsx';
@@ -11,7 +11,7 @@ export default function HomePage() {
     <>
       <Header />
       <ClothingSection />
-      <BigText />
+      
       <Categories />
       <About />
       <Footer />

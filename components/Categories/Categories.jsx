@@ -15,7 +15,7 @@ const navigatePage = (path) => {
 
 return (
     <section className={styles.promoSection}>
-    
+   <h1 className={styles.Heading}>Categories</h1>
      <div className={styles.promoContent}>
      
     <button onClick={() => navigatePage('/hoodies')}  className={ `${styles.promoOne} ${styles.box}`}>Hoodies 

@@ -6,10 +6,11 @@ function About() {
     return (
         <div className={styles.aboutSection}> 
         <div className={styles.aboutContainerOne}>
-         <h1 className={styles.heading}>Section 1</h1>
         </div>
         <div className={styles.aboutContainerTwo}>
-        <h1 className={styles.headingTwo}>Section 2</h1>
+        <h1 className={styles.heading}>
+        better keep an eye out...its limited</h1>
+        <p  className={styles.paragraph}>new and exclusive drops ever month</p>
         </div>
         </div>
     );
