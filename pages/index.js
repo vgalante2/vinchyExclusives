@@ -4,6 +4,7 @@ import Header from '../components/Header/Header.jsx';
 import ClothingSection from '../components/ClothingSection/ClothingSection.jsx';
 import Categories from '../components/Categories/Categories.jsx';
 import About from '../components/About/About.jsx';
+import BestSellers from '../components/ClothingSection/BestSellers.jsx';
 import Footer from '../components/Footer/Footer.jsx';
 
 export default function HomePage() {
@@ -13,6 +14,7 @@ export default function HomePage() {
       <ClothingSection />
       
       <Categories />
+      <BestSellers />
       <About />
       <Footer />
       {/* Other components specific to the homepage */}

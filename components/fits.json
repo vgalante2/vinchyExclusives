@@ -2,6 +2,7 @@
 
 {
     "id": 0,
+    "bestseller": true,
     "imgSrc": "/heart.png",
     "name": "jaded",
     "price": 49.99,
@@ -12,6 +13,7 @@
 },
 {
     "id": 1,
+    "bestseller": false,
     "imgSrc": "/faded.png",
     "name": "faded",
     "price": 34.99,
@@ -22,6 +24,7 @@
 },
 {
     "id": 2,
+    "bestseller": false,
     "imgSrc": "/set.png",
     "name": "batman",
     "price": 89.99,
@@ -32,6 +35,7 @@
 },
 {
     "id": 3,
+    "bestseller": true,
     "imgSrc": "/bear.png",
     "name": "honeycomb",
     "price": 49.99,
@@ -42,6 +46,7 @@
 },
 {
     "id": 4,
+    "bestseller": true,
     "imgSrc": "/firmament.png",
     "name": "firmament",
     "price": 49.99,
@@ -53,6 +58,7 @@
 ,
 {
     "id": 5,
+    "bestseller": false,
     "imgSrc": "/divinesweats.png",
     "name": "divine",
     "price": 44.99,
@@ -64,6 +70,7 @@
 ,
 {
     "id": 6,
+    "bestseller": true,
     "imgSrc": "/tee2.png",
     "name": "classicv",
     "price": 34.99,
@@ -75,6 +82,7 @@
 ,
 {
     "id": 7,
+    "bestseller": false,
     "imgSrc": "/tee3.png",
     "name": "bubbles",
     "price": 34.99,
@@ -85,6 +93,7 @@
 },
 {
     "id": 8,
+    "bestseller": false,
     "imgSrc": "/tee4.png",
     "name": "davinci",
     "price": 34.99,
@@ -95,6 +104,7 @@
 },
 {
     "id": 9,
+    "bestseller": false,
     "imgSrc": "/tee5.png",
     "name": "curved classic",
     "price": 34.99,
@@ -105,6 +115,7 @@
 },
 {
     "id": 10,
+    "bestseller": false,
     "imgSrc": "/tee6.png",
     "name": "Skel",
     "price": 34.99,
@@ -115,6 +126,7 @@
 },
 {
     "id": 11,
+    "bestseller": false,
     "imgSrc": "/sweats2.png",
     "name": "classic",
     "price": 44.99,
@@ -125,6 +137,7 @@
 },
 {
     "id": 12,
+    "bestseller": false,
     "imgSrc": "/sweats3.png",
     "name": "floral",
     "price": 44.99,
@@ -136,6 +149,7 @@
 ,
 {
     "id": 12,
+    "bestseller": false,
     "imgSrc": "/hoodie4.png",
     "name": "divine",
     "price": 49.99,
@@ -147,6 +161,7 @@
 ,
 {
     "id": 13,
+    "bestseller": false,
     "imgSrc": "/hoodie5.png",
     "name": "divine",
     "price": 49.99,
