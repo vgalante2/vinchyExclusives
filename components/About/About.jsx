@@ -5,8 +5,6 @@ function About() {
 
     return (
         <div className={styles.aboutSection}> 
-        <div className={styles.aboutContainerOne}>
-        </div>
         <div className={styles.aboutContainerTwo}>
         <h1 className={styles.heading}>
         better keep an eye out...its limited</h1>
