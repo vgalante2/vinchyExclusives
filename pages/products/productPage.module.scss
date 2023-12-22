@@ -1,0 +1,30 @@
+
+
+.productSection {
+background-color: white;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+
+}
+
+.name {
+color: black;
+font-family: 'Fredoka', sans-serif;
+}
+
+
+.image {
+    height: 500px;
+    width: 500px;
+}
+
+.description {
+    color: black;
+}
+
+.price {
+    color: black;
+    font-family: 'Fredoka', sans-serif;
+}

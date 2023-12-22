@@ -1,5 +1,6 @@
 // pages/products/[productId].js
 import fitsData from '../../components/fits.json';
+import styles from "./productPage.module.scss";
 
 function ProductId({ productData }) {
   // If the product data was not found, render a "Not Found" message
@@ -9,11 +10,11 @@ function ProductId({ productData }) {
 
   // Render the product details
   return (
-    <div>
-      <h1>{productData.name}</h1>
-      <img src={productData.imgSrc} alt={productData.name} />
-      <p>{productData.description}</p>
-      <p>Price: ${productData.price}</p>
+    <div className={styles.productSection}>
+      <h1 className={styles.name}>{productData.name}</h1>
+      <img className={styles.image} src={productData.imgSrc} alt={productData.name} />
+      <p className={styles.description}>{productData.description}</p>
+      <p className={styles.price}>Price: ${productData.price}</p>
     </div>
   );
 }
