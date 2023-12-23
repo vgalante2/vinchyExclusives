@@ -3,7 +3,7 @@
 {
     "id": 0,
     "bestseller": true,
-    "imgSrc": "/heart.png",
+    "imgSrc": "/heartsite.png",
     "name": "jaded",
     "price": 49.99,
     "category": "hoodies",
@@ -14,7 +14,7 @@
 {
     "id": 1,
     "bestseller": false,
-    "imgSrc": "/faded.png",
+    "imgSrc": "/heartshirt.png",
     "name": "faded",
     "price": 34.99,
     "category": "shirts",
@@ -25,7 +25,7 @@
 {
     "id": 2,
     "bestseller": false,
-    "imgSrc": "/set.png",
+    "imgSrc": "/set1.png",
     "name": "batman",
     "price": 89.99,
     "category": "sets",
