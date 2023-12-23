@@ -8,6 +8,7 @@
     align-items: center;
     justify-content: space-around;
     flex-direction: row;
+    gap: 30px;
     flex-wrap: wrap;
     padding-bottom: 350px;
 }
@@ -15,6 +16,7 @@
 .clothingItem {
     width: calc(25% - 10px); /* Adjust the 10px for margins as needed */
     margin: 5px; /* Half of the subtracted value to ensure spacing */
+    box-sizing: border-box;
 }
 
 .heading {
