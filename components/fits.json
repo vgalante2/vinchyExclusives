@@ -59,7 +59,7 @@
 {
     "id": 5,
     "bestseller": false,
-    "imgSrc": "/divinesweats.png",
+    "imgSrc": "/bluesweats.png",
     "name": "divine",
     "price": 44.99,
     "category": "pants",
@@ -71,7 +71,7 @@
 {
     "id": 6,
     "bestseller": true,
-    "imgSrc": "/tee2.png",
+    "imgSrc": "/shirt2.png",
     "name": "classicv",
     "price": 34.99,
     "category": "shirts",
@@ -83,7 +83,7 @@
 {
     "id": 7,
     "bestseller": false,
-    "imgSrc": "/tee3.png",
+    "imgSrc": "/shirt3.png",
     "name": "bubbles",
     "price": 34.99,
     "category": "shirts",
@@ -94,8 +94,8 @@
 {
     "id": 8,
     "bestseller": false,
-    "imgSrc": "/tee4.png",
-    "name": "davinci",
+    "imgSrc": "/redshirt.png",
+    "name": "romans",
     "price": 34.99,
     "category": "shirts",
     "description": "descrioption",
@@ -127,7 +127,7 @@
 {
     "id": 11,
     "bestseller": false,
-    "imgSrc": "/sweats2.png",
+    "imgSrc": "/redsweats.png",
     "name": "classic",
     "price": 44.99,
     "category": "pants",
@@ -138,7 +138,7 @@
 {
     "id": 12,
     "bestseller": false,
-    "imgSrc": "/sweats3.png",
+    "imgSrc": "/blacksweats.png",
     "name": "floral",
     "price": 44.99,
     "category": "pants",
@@ -150,7 +150,7 @@
 {
     "id": 12,
     "bestseller": false,
-    "imgSrc": "/hoodie4.png",
+    "imgSrc": "/skel.png",
     "name": "divine",
     "price": 49.99,
     "category": "hoodies",
