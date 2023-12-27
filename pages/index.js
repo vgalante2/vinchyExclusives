@@ -3,6 +3,7 @@ import styles from "/styles/Welcome.module.scss";
 import Header from '../components/Header/Header.jsx';
 // import BigText from '../components/BigText/BigText.jsx';
 import ClothingSection from '../components/ClothingSection/ClothingSection.jsx';
+import Hoodies from '../components/ClothingSection/Hoodies.jsx';
 import Categories from '../components/Categories/Categories.jsx';
 import About from '../components/About/About.jsx';
 import BestSellers from '../components/ClothingSection/BestSellers.jsx';
@@ -28,7 +29,7 @@ return (
   return (
     <>
       <Header />
-      <ClothingSection />
+      <Hoodies />
       
       <Categories />
       <BestSellers />
