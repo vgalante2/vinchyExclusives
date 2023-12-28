@@ -31,14 +31,14 @@ return (
 
   return (
     <>
-      <Header />
+      <Header />   
       <Hoodies />
       <Categories />
       <Shirts />
       <About />
-      <BestSellers />
-      <Promo />
       <Pants />
+      <Promo />
+      <BestSellers />
       <Footer />
       {/* Other components specific to the homepage */}
     </>
