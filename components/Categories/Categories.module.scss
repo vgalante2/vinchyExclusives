@@ -1,8 +1,8 @@
 
 
-.promoSection {
+.CategorySection {
     
-    height: 100vh;
+    height: 60vh;
     width: 100vw;
     display: flex;
     align-items: center;
@@ -14,12 +14,12 @@
 
 
 
-.Heading {
+.CategoryHeading {
     font-family: 'Fredoka', sans-serif;
 
 }
 
-.promoContent {
+.CategoryContent {
         display: grid;
        justify-content: center;
         grid-template-columns: 400px 400px 400px 400px;
@@ -47,7 +47,7 @@ opacity: 50%;
 
 
 
-.promoOne {
+.CategoryOne {
 grid-area: header2;
 font-family: 'Fredoka', sans-serif;
     font-size: 2rem;
@@ -61,7 +61,7 @@ background-size: cover; /* This ensures the image covers the entire area */
     background-position: center;
 }
 
-.promoTwo {
+.CategoryTwo {
     grid-area: header;
     font-family: 'Fredoka', sans-serif;
     font-size: 2rem;
@@ -73,7 +73,7 @@ background-size: cover; /* This ensures the image covers the entire area */
         background-position: center center;
 }
 
-.promoThree {
+.CategoryThree {
     grid-area: main2;
     font-family: 'Fredoka', sans-serif;
     font-size: 2rem;
@@ -85,7 +85,7 @@ background-size: cover; /* This ensures the image covers the entire area */
     background-position: 50% 70%;
 }
 
-.promoFour {
+.CategoryFour {
     grid-area: footer;
     font-family: 'Fredoka', sans-serif;
     font-size: 2rem;

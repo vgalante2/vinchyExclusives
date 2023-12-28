@@ -1,0 +1,111 @@
+.PromoSection {
+    height: 40vh;
+    width: 100vw;
+
+
+}
+
+.PromoContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 40vh;
+    
+}
+
+.PromoDivOne, .PromoDivTwo, .PromoDivThree {
+    flex-grow: 1; /* Allow the divs to grow and take up equal space */
+    height: 100%;
+    width: 100%;
+    
+  }
+
+  .promo2 {
+    height: 100%;
+  }
+
+
+
+
+
+.PromoDivOne {
+background-image: url("/promo1.jpg");
+background-size: cover;
+background-repeat: no-repeat;
+background-position: 50% 60%;
+
+}
+
+.PromoDivTwo {
+    position: relative;
+}
+
+
+
+
+.OverlayText {
+    position: absolute;
+    top: 0; /* Adjust as needed */
+    left: 0; /* Adjust as needed */
+    width: 100%; /* Span the entire width of the container */
+    height: 100%; /* Span the entire height of the container */
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    color: white; /* Example text color */
+    /* Add more styling as needed */
+  }
+
+.PromoDivThree {
+    background-image: url("/promo2.jpg");
+    background-size: cover;
+    background-position: 50% 40%;
+    
+}
+
+
+
+.image1 {
+height: 800px;
+
+}
+
+.image2 {
+    height: 800px;
+    
+    }
+
+    .PromoDivOne, .PromoDivThree {
+        position: relative;
+        display: flex;
+        justify-content: center; 
+        align-items: center;
+        text-align: center;
+       
+      }
+      
+      .Overlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%; /* Span the entire width of the container */
+        height: 100%; /* Span the entire height of the container */
+        background-color: rgba(0, 0, 0, 0.605); /* Semi-transparent black */
+        /* Adjust the opacity as needed */
+      }
+
+      .Overlay2 {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%; /* Span the entire width of the container */
+        height: 100%; /* Span the entire height of the container */
+        background-color: rgba(0, 0, 0, 0.516); /* Semi-transparent black */
+        /* Adjust the opacity as needed */
+      }
+
+      .Text2  {
+        font-size: 4rem;
+        font-family: 'Fredoka', sans-serif; 
+      }

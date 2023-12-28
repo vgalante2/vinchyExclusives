@@ -14,21 +14,21 @@ const navigatePage = (path) => {
 }
 
 return (
-    <section className={styles.promoSection}>
-   <h1 className={styles.Heading}>Categories</h1>
-     <div className={styles.promoContent}>
+    <section className={styles.CategorySection}>
+   <h1 className={styles.CategoryHeading}>Categories</h1>
+     <div className={styles.CategoryContent}>
      
-    <button onClick={() => navigatePage('/hoodies')}  className={ `${styles.promoOne} ${styles.box}`}>Hoodies 
+    <button onClick={() => navigatePage('/hoodies')}  className={ `${styles.CategoryOne} ${styles.box}`}>Hoodies 
     
     </button>
      
-     <button onClick={() => navigatePage('/shirts')} className={ `${styles.promoTwo} ${styles.box}`}>Shirts
+     <button onClick={() => navigatePage('/shirts')} className={ `${styles.CategoryTwo} ${styles.box}`}>Shirts
         
         </button>
-        <button onClick={() => navigatePage('/pants')} className={ `${styles.promoThree} ${styles.box}`}>Pants
+        <button onClick={() => navigatePage('/pants')} className={ `${styles.CategoryThree} ${styles.box}`}>Pants
         
         </button>
-        <button onClick={() => navigatePage('/sets')}  className={ `${styles.promoFour} ${styles.box}`}>Sets
+        <button onClick={() => navigatePage('/sets')}  className={ `${styles.CategoryFour} ${styles.box}`}>Sets
         
         </button>
         
