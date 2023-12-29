@@ -87,11 +87,16 @@
     position: relative;
     right: 400px;
     top: 20px;
+    font-family: 'Archivo Black', sans-serif;
 
     @media(max-width: 676px) {
         right: 0px;
         top: -120px;
     }
+  }
+
+  .vin {
+    color: rgb(117, 165, 255);
   }
 
 
