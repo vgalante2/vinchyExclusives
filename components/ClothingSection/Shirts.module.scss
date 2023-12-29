@@ -43,7 +43,12 @@ color: rgb(137, 121, 242);
 
 @media(max-width: 676px) {
     .ShirtsAreaSection {
-      
+      height: 80vh;
+      padding: 40px 20px;
+    }
+    .clothingItem {
+        width: calc(15% - 5px); 
+        height: auto;
     }
 
 

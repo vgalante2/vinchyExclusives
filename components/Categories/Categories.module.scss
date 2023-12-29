@@ -97,3 +97,22 @@ background-size: cover; /* This ensures the image covers the entire area */
     background-repeat: no-repeat;
     background-position: 50% 45%;
 }
+
+@media(max-width: 676px) {
+    .CategoryContent {
+        grid-template-columns: 70px 70px 70px 70px;
+        grid-template-rows: auto;
+    }
+    .CategoryOne {
+        font-size: 1rem;
+    }
+    .CategoryTwo {
+        font-size: 1rem;
+    }
+    .CategoryThree {
+        font-size: 1rem;
+    }
+    .CategoryFour {
+        font-size: 1rem;
+    }
+}
