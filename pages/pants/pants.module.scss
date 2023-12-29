@@ -29,3 +29,9 @@
     height: 300px;
     
 }
+
+@media(max-width:676px) {
+    .pantsSection {
+        height: 100%;
+    }
+}

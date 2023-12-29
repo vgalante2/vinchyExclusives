@@ -8,8 +8,9 @@
     align-items: center;
     justify-content: center;
 
-    @media(max-width: 767px) {
-       height: 70vh;
+    @media(max-width: 676px) {
+       height: 80vh;
+      
      }
 }
 
@@ -21,8 +22,9 @@
     max-width: 600px; /* Maximum width */
     text-align: center; /* Center the text */
   
-    @media(max-width: 767px) {
-       justify-content: center;
+    @media(max-width: 676px) {
+       position: relative; 
+       top: 120px;
     }
    
 

@@ -30,5 +30,9 @@ height: 30vh;
     /* Adjust the opacity as needed */
 }
 
-
-
+@media(max-width: 676px) {
+    .PromotionSection{
+        display: none;
+    }
+       
+}

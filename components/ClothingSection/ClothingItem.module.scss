@@ -6,7 +6,7 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
-  
+  padding: 1rem 1rem;
 }
 
 .name {
@@ -29,7 +29,7 @@
 
 @media(max-width: 676px) {
   .image {
-     height: 130px;
+     height: 200px;
 
   }
 

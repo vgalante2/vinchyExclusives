@@ -39,3 +39,14 @@
 .span {
 color: rgb(137, 121, 242);
 }
+
+@media (max-width: 676px) {
+    .clothingItem {
+        width: calc(100% - 10px); /* Full width minus margin on mobile */
+        margin: 5px; /* Adjust margin as needed */
+    }
+
+    .HoodieAreaSection {
+        height: 100%;
+    }
+}
