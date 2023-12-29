@@ -10,6 +10,7 @@ function ClothingItem({ id, imgSrc, name, price}) {
                 <img className={styles.image} src={imgSrc} alt={name}/>  
                 <h2 className={styles.name}>{name}</h2>
                 <p className={styles.price}>${price}</p>
+                
             </div>
         </Link>
     );

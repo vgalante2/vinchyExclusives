@@ -17,8 +17,12 @@
 
 .price {
     margin-top: 5px;
-    color: blue;
+    color: rgb(65, 129, 247);
     font-family: 'Fredoka', sans-serif;
+    border: 2px solid black;
+    background-color: white;
+    padding: 0.5rem;
+    border-radius: 20px;
 }
 
 .image {
@@ -33,8 +37,21 @@
 
   }
 
+}
 
+.shopBtn {
+padding: 0.5rem;
+border-radius: 20px;
+border: 2px solid black;
+margin-left: 5px;
+background-color: white;
+color:rgb(65, 129, 247);
 
+}
 
-
+.priceContainer {
+  display: flex;
+  flex-direction: row;
+ 
+  
 }

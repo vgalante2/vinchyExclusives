@@ -64,7 +64,9 @@ $text-color: #ffffff;
 
 .closeBtn, .menuBtn {
     display: none;
-   
+    @media (max-width: 676px) {
+        display: flex;
+    }
 }
 
 .closeBtn {
