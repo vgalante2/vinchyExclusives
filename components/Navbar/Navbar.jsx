@@ -31,7 +31,7 @@ function Navbar() {
                 <a className={styles.navItem} href="/#catalog">Catalog</a>
                 <a className={styles.navItem} href="/#contact">Contact</a>
                 {isMobile && (
-                    <button className={styles.navBtn} onClick={showNavbar}>
+                    <button className={styles.closeBtn} onClick={showNavbar}>
                         <CloseIcon />
                     </button>
                 )}
