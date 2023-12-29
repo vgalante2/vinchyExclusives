@@ -8,7 +8,7 @@ import Shirts from '../components/ClothingSection/Shirts.jsx';
 import Pants from '../components/ClothingSection/Pants.jsx';
 import Categories from '../components/Categories/Categories.jsx';
 import About from '../components/About/About.jsx';
-import Promo from '../components/Promo/Promo.jsx';
+import Promotion from '../components/Promo/Promotion.jsx';
 import BestSellers from '../components/ClothingSection/BestSellers.jsx';
 import Footer from '../components/Footer/Footer.jsx';
 
@@ -37,7 +37,7 @@ return (
       <Shirts />
       <About />
       <Pants />
-      <Promo />
+      <Promotion />
       <BestSellers />
       <Footer />
       {/* Other components specific to the homepage */}

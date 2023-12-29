@@ -15,7 +15,7 @@ function Promo() {
         <h1 className={styles.Text2}>Lets Create.</h1>
     </div>
     <div className={styles.Overlay2}></div>
-    <video className={styles.promo2} src="/promo2.mp4" alt="" autoPlay loop muted />
+    <video className={styles.promo2} src="/trailer2.mp4" alt="" autoPlay loop muted />
 </div>
        <div className={styles.PromoDivThree}>
        <div className={styles.Overlay}></div>

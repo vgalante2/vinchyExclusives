@@ -86,7 +86,7 @@
  position: absolute;
  bottom: -1px;
  left: 0;
-
+ width: 100vw;
 
 }
 
@@ -104,8 +104,6 @@
     width: 100%;
     height: 100vh;
 
-
-    
 }
 
 .banner .clouds {
@@ -140,3 +138,22 @@
     position: relative;
     padding: 75px 100px;
 }
+
+@media (max-width: 676px) {
+    .banner {
+      width: 100vh; /* Example: Change height on smaller screens */
+      /* Other mobile-specific styles */
+    }
+
+    .fog {
+        width: 100%;
+    }
+  }
+
+
+  @media (max-width: 2550px) {
+
+    .fog {
+        width: 100%;
+    }
+  }
