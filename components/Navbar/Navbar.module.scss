@@ -1,7 +1,7 @@
 /* Navbar.module.scss */
 @import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
 
-$primary-color: #007bff;
+$primary-color: #439bf8;
 $hover-color: #53aef9;
 $active-color: rgb(188, 87, 242);
 $navbar-background: #000000;
@@ -72,8 +72,31 @@ $text-color: #ffffff;
 .closeBtn {
     @media (max-width: 676px) {
         display: flex;
+        height: 50px;
+        width: 50px;
+        align-items: center;
+        justify-content: center;
         position: absolute;
         top: 30px;
         left: 30px;
+        background-color: white;
+        color: $primary-color;
+        border: none;
+        border-radius: 5px;
+    }
+}
+
+.menuBtn {
+    @media (max-width: 676px) {
+        background-color: white;
+        color: $primary-color;
+        border: none;
+        border-radius: 5px;
+        height: 30px;
+        width: 30px;
+        align-items: center;
+        justify-content: center;
+        
+    
     }
 }
