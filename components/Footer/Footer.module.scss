@@ -87,6 +87,11 @@
     position: relative;
     right: 400px;
     top: 20px;
+
+    @media(max-width: 676px) {
+        right: 0px;
+        top: -120px;
+    }
   }
 
 

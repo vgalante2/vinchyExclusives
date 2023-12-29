@@ -45,7 +45,7 @@ function Footer() {
        NO* &nbsp; <span> RESTOCKS </span> &nbsp; NO* &nbsp; <span> RESTOCKS </span> &nbsp; NO* &nbsp; <span> RESTOCKS </span> &nbsp; NO* &nbsp; <span> RESTOCKS </span>
       </div>
       </div>
-      <p className={styles.copyright}>copyright © vinchy exclusives* 2024</p>
+      <p className={styles.copyright}>created by vin galante</p>
       </section>
       
     )
