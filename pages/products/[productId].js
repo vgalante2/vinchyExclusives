@@ -1,12 +1,18 @@
 // pages/products/[productId].js
+import * as React from 'react';
 import fitsData from '../../components/fits.json';
 import styles from "./productPage.module.scss";
+import CartSelector from "./CartSelector";
+
 
 function ProductId({ productData }) {
   // If the product data was not found, render a "Not Found" message
   if (!productData) {
     return <div>Product not found</div>;
   }
+
+
+
 
   // Render the product details
   return (
@@ -29,7 +35,7 @@ function ProductId({ productData }) {
        </div>
       </div>
       <div className={styles.CheckoutContainer}>
-     {/* <button></button> */}
+      <CartSelector />;
      <div className={styles.CartContainer}>
      <button className={styles.ATCContainer}>Add to Cart</button>
      <button className={styles.CheckContainer}>Checkout</button>
