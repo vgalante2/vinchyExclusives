@@ -3,31 +3,164 @@
 .productSection {
 background-color: white;
 display: flex;
-flex-direction: column;
+flex-direction: row;
 align-items: center;
-justify-content: center;
+
+justify-content: space-around;
+height: 90vh;
+}
+
+
+.NameContainer {
+display: flex;
+flex-direction: column;
+gap: 10px;
+}
+
+.ImageContainer {
 
 }
+
+.InfoContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    gap: 80px;
+    font-family: 'Fredoka', sans-serif;
+   
+}
+
+.sizeContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+.sizeHead {
+    color: black;
+    font-size: 2rem;
+    font-family: 'Fredoka', sans-serif;
+}
+
+.sizes {
+    display: flex;
+    justify-content: space-around;
+    gap: 15px;
+   
+
+}
+
+.small {
+    border: 2px rgb(57, 121, 248) solid;
+    background-color: transparent;
+color: black;
+padding: 0.5rem 1rem;
+border-radius: 20px;
+font-family: 'Fredoka', sans-serif;
+font-size: 1.5rem;
+
+&:hover {
+    background-color: rgb(57, 121, 248);
+}
+}
+
+.medium {
+    border: 2px rgb(57, 121, 248) solid;
+    background-color: transparent;
+color: black;
+padding: 0.5rem 1rem;
+border-radius: 20px;
+font-family: 'Fredoka', sans-serif;
+font-size: 1.5rem;
+
+&:hover {
+    background-color: rgb(57, 121, 248);
+}
+}
+
+.large {
+    border: 2px rgb(57, 121, 248) solid;
+    background-color: transparent;
+color: black;
+padding: 0.5rem 1rem;
+border-radius: 20px;
+font-family: 'Fredoka', sans-serif;
+font-size: 1.5rem;
+
+&:hover {
+    background-color: rgb(57, 121, 248);
+}
+}
+
+.CheckoutContainer {
+    display: flex;
+    flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.CartContainer {
+    display: flex;
+    flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.CheckContainer {
+    border: 2px rgb(57, 121, 248) solid;
+    background-color: transparent;
+color: black;
+padding: 0.5rem 1rem;
+border-radius: 20px;
+font-family: 'Fredoka', sans-serif;
+font-size: 1.5rem;
+}
+
+.ATCContainer {
+    border: 2px rgb(0, 0, 0) solid;
+    background-color: rgb(99, 147, 244);
+color: black;
+padding: 0.5rem 1rem;
+border-radius: 20px;
+font-family: 'Fredoka', sans-serif;
+font-size: 1.5rem;
+}
+
+
+
+
+
+
+
+
+
 
 .name {
 color: black;
 font-family: 'Fredoka', sans-serif;
+font-size: 4rem;
 }
 
 
-.image {
-    height: 500px;
-    width: 500px;
+
+.ProductImage {
+    height: 700px;
+    width: 700px;
+    
 }
 
 .description {
     color: rgb(0, 0, 0);
     font-family: 'Fredoka', sans-serif;
-
+    font-size: 2rem;
 }
 
 .price {
-    color: black;
+    color: rgb(57, 121, 248);
     font-family: 'Fredoka', sans-serif;
-   
+    font-size: 2.5rem;
 }

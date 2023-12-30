@@ -8,7 +8,7 @@
     "price": 49.99,
     "category": "hoodies",
     "description": "descrioption",
-    "size": ["small, medium, large"]
+    "size": ["small", "medium", "large"]
 
 },
 {
@@ -19,7 +19,7 @@
     "price": 34.99,
     "category": "shirts",
     "description": "descrioption",
-    "size": ["small, medium, large"]
+    "size": ["small", "medium", "large"]
 
 },
 {
@@ -30,7 +30,7 @@
     "price": 89.99,
     "category": "sets",
     "description": "descrioption",
-    "size": ["small, medium, large"]
+    "size": ["small", "medium", "large"]
 
 },
 {
@@ -41,7 +41,7 @@
     "price": 49.99,
     "category": "hoodies",
     "description": "descrioption",
-    "size": ["small, medium, large"]
+    "size": ["small", "medium", "large"]
 
 },
 {
@@ -52,7 +52,7 @@
     "price": 49.99,
     "category": "hoodies",
     "description": "descrioption",
-    "size": ["small, medium, large"]
+    "size": ["small", "medium", "large"]
 
 }
 ,
@@ -64,7 +64,7 @@
     "price": 44.99,
     "category": "pants",
     "description": "descrioption",
-    "size": ["small, medium, large"]
+    "size": ["small", "medium", "large"]
 
 }
 ,
@@ -76,7 +76,7 @@
     "price": 34.99,
     "category": "shirts",
     "description": "descrioption",
-    "size": ["small, medium, large"]
+    "size": ["small", "medium", "large"]
 
 }
 ,
@@ -88,7 +88,7 @@
     "price": 34.99,
     "category": "shirts",
     "description": "descrioption",
-    "size": ["small, medium, large"]
+    "size": ["small", "medium", "large"]
 
 },
 {
@@ -99,7 +99,7 @@
     "price": 34.99,
     "category": "shirts",
     "description": "descrioption",
-    "size": ["small, medium, large"]
+    "size": ["small", "medium", "large"]
 
 },
 {
@@ -110,7 +110,7 @@
     "price": 34.99,
     "category": "shirts",
     "description": "descrioption",
-    "size": ["small, medium, large"]
+    "size": ["small", "medium", "large"]
 
 },
 {
@@ -121,7 +121,7 @@
     "price": 34.99,
     "category": "shirts",
     "description": "descrioption",
-    "size": ["small, medium, large"]
+    "size": ["small", "medium", "large"]
 
 },
 {
@@ -132,7 +132,7 @@
     "price": 44.99,
     "category": "pants",
     "description": "descrioption",
-    "size": ["small, medium, large"]
+    "size": ["small", "medium", "large"]
 
 },
 {
@@ -143,7 +143,7 @@
     "price": 44.99,
     "category": "pants",
     "description": "descrioption",
-    "size": ["small, medium, large"]
+    "size": ["small", "medium", "large"]
 
 }
 ,
@@ -155,7 +155,7 @@
     "price": 49.99,
     "category": "hoodies",
     "description": "descrioption",
-    "size": ["small, medium, large"]
+    "size": ["small", "medium", "large"]
 
 }
 ,
@@ -167,7 +167,7 @@
     "price": 49.99,
     "category": "hoodies",
     "description": "descrioption",
-    "size": ["small, medium, large"]
+    "size": ["small", "medium", "large"]
 
 }
 
