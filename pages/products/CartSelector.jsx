@@ -71,7 +71,7 @@ function CartSelector() {
         font-size: 1rem;
         font-family: inherit;
         font-weight: 400;
-        line-height: 1.375;
+        line-height: 1.3;
         color: ${theme.palette.mode === 'dark' ? grey[600] : grey[900]};
         background: ${theme.palette.mode === 'dark' ? grey[900] : '#fff'};
         border: 2px solid ${theme.palette.mode === 'dark' ? grey[700] : grey[200]};
@@ -79,7 +79,7 @@ function CartSelector() {
           theme.palette.mode === 'dark' ? 'rgba(0,0,0, 0.5)' : 'rgba(0,0,0, 0.05)'
         };
         border-radius: 8px;
-        margin: 0 8px;
+        margin: 0 10px;
         padding: 10px 12px;
         outline: 0;
         min-width: 0;
