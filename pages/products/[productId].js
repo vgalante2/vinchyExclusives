@@ -1,15 +1,19 @@
 // pages/products/[productId].js
-import * as React from 'react';
+import  React, { useState } from 'react';
 import fitsData from '../../components/fits.json';
 import styles from "./productPage.module.scss";
 import CartSelector from "./CartSelector";
 
 
 function ProductId({ productData }) {
+
+  
   // If the product data was not found, render a "Not Found" message
   if (!productData) {
     return <div>Product not found</div>;
   }
+
+
 
 
 
@@ -29,9 +33,9 @@ function ProductId({ productData }) {
       <div className={styles.sizeContainer}>
         <p className={styles.sizeHead}>size</p>
        <div className={styles.sizes}>
-       <button className={styles.small}>{productData.size[0]}</button>
-       <button className={styles.medium}>{productData.size[1]}</button>
-       <button className={styles.large}>{productData.size[2]}</button>
+       <button  className={styles.small}>{productData.size[0]}</button>
+       <button  className={styles.medium}>{productData.size[1]}</button>
+       <button  className={styles.large}>{productData.size[2]}</button>
        </div>
       </div>
       <div className={styles.CheckoutContainer}>
