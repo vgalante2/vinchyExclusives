@@ -22,7 +22,7 @@
 .CategoryContent {
         display: grid;
        justify-content: center;
-        grid-template-columns: 600px 600px 600px 600px;
+        grid-template-columns: 400px 400px 400px 400px;
         grid-template-rows: auto;
         grid-template-areas: 
           "header header header2 header2"
@@ -114,5 +114,13 @@ background-size: cover; /* This ensures the image covers the entire area */
     }
     .CategoryFour {
         font-size: 1rem;
+    }
+}
+
+
+@media(max-width: 1700px) {
+    .CategoryContent {
+        grid-template-columns: 200px 200px 200px 200px;
+       
     }
 }
