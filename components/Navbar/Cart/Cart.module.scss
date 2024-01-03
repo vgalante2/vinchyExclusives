@@ -1,0 +1,16 @@
+
+
+.cartSection {
+    position: fixed;
+    top: 130px; /* Adjust as needed */
+    right: 100px; /* Adjust as needed */
+    width: 500px; 
+    height: 100vh;
+    border: none;
+    z-index: 1000;
+   border: white solid 2px;
+    background-color: rgb(0, 0, 0);
+    border-radius: 25px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+    
+}

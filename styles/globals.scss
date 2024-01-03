@@ -105,3 +105,33 @@ a {
     color-scheme: dark;
   }
 }
+
+.slideOutContent {
+  transform: translateX(-300px); /* Adjust as needed */
+  transition: transform 0.3s ease-in-out;
+}
+
+.slideInCart {
+  transform: translateX(-100px); /* Adjust if your cart has different width */
+  transition: transform 0.3s ease-in-out;
+}
+
+.cartContainer {
+  width: 300px; /* Width of the cart */
+  position: fixed;
+  top: 0;
+  
+  right: -400px; /* Start offscreen */
+  height: 100%;
+  transition: transform 0.2s ease-in-out;
+  /* Rest of your cart styling */
+}
+
+.contentWrapper {
+  transition: transform 0.2s ease-in-out;
+  /* Add any additional styling necessary for your layout */
+}
+
+.blurBackground {
+  filter: blur(40px);
+}
