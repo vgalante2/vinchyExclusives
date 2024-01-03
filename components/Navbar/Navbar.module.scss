@@ -1,7 +1,7 @@
 /* Navbar.module.scss */
 @import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
 
-$primary-color: #439bf8;
+$primary-color: #5ca7f6;
 $hover-color: #53aef9;
 $active-color: rgb(188, 87, 242);
 $navbar-background: #000000;
@@ -88,7 +88,7 @@ $text-color: #ffffff;
 
 .menuBtn {
     @media (max-width: 676px) {
-        background-color: white;
+        background-color: black;
         color: $primary-color;
         border: none;
         border-radius: 5px;
@@ -99,5 +99,27 @@ $text-color: #ffffff;
         
     
     }
+
+    
 }
 
+.cart {
+    @media (max-width: 676px) {
+        visibility: hidden;
+        
+    
+    }
+
+    
+}
+
+.CartBtn {
+   background-color: black;
+   border: none;
+}
+
+.MobileBtn {
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+}

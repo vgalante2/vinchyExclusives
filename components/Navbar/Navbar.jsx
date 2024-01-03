@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import MenuIcon from '@mui/icons-material/Menu';
 import CloseIcon from '@mui/icons-material/Close';
+import ShoppingCartIcon from '@mui/icons-material/ShoppingCart';
 import styles from './Navbar.module.scss';
 import Link from 'next/link'
 import Cart from "./Cart/Cart.jsx";
@@ -45,9 +46,14 @@ function Navbar({ cartOpen, toggleCart }) {
                 )}
             </nav>
             {isMobile && (
+                <div className={styles.MobileBtn}>
+                <button className={styles.CartBtn} onClick={toggleCart}>
+                    <ShoppingCartIcon />
+                    </button>
                 <button className={styles.menuBtn} onClick={showNavbar}>
                     <MenuIcon />
                 </button>
+                </div>
             )}
         </div>
     );
