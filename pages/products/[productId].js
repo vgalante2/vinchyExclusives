@@ -6,7 +6,7 @@ import CartSelector from "./CartSelector";
 
 
 function ProductId({ productData }) {
-
+const [size, setSize] = useState(false);
   
   // If the product data was not found, render a "Not Found" message
   if (!productData) {
@@ -14,7 +14,9 @@ function ProductId({ productData }) {
   }
 
 
-
+const handleNewSize = (newSize) => {
+  setSize(newSize);
+}
 
 
 
@@ -33,9 +35,9 @@ function ProductId({ productData }) {
       <div className={styles.sizeContainer}>
         <p className={styles.sizeHead}>size</p>
        <div className={styles.sizes}>
-       <button  className={styles.small}>{productData.size[0]}</button>
-       <button  className={styles.medium}>{productData.size[1]}</button>
-       <button  className={styles.large}>{productData.size[2]}</button>
+       <button  onClick={() => {handleNewSize(productData.size[0])}}    className={`${styles.small} ${size === productData.size[0] ? styles.sizeSelected : ''}`}>{productData.size[0]}</button>
+       <button  onClick={() => {handleNewSize(productData.size[1])}}    className={`${styles.medium} ${size === productData.size[1] ? styles.sizeSelected : ''}`}>{productData.size[1]}</button>
+       <button  onClick={() => {handleNewSize(productData.size[2])}}    className={`${styles.large} ${size === productData.size[2] ? styles.sizeSelected : ''}`}>{productData.size[2]}</button>
        </div>
       </div>
       <div className={styles.CheckoutContainer}>
