@@ -7,6 +7,7 @@ import CartSelector from "./CartSelector";
 
 function ProductId({ productData }) {
 const [size, setSize] = useState(false);
+const [quantity, setQuantity] = useState([0]);
   
   // If the product data was not found, render a "Not Found" message
   if (!productData) {
@@ -18,7 +19,19 @@ const handleNewSize = (newSize) => {
   setSize(newSize);
 }
 
+const handleAddToCart = () => {
+  if (size) {
+    const cartItem = { ...productData, selectedSize: size, quantity: quantity };
+    const currentCart = JSON.parse(localStorage.getItem('cart')) || [];
+    localStorage.setItem('cart', JSON.stringify([...currentCart, cartItem]));
+  } else {
+    console.log(err);
+  }
+};
 
+const handleQuantity = (newQuantity) => {
+  props.setQuantity(newQuantity);
+}
 
   // Render the product details
   return (
@@ -41,11 +54,11 @@ const handleNewSize = (newSize) => {
        </div>
       </div>
       <div className={styles.CheckoutContainer}>
-      <CartSelector />;
+      <CartSelector setQuantity={setQuantity} />;
      <div className={styles.CartContainer}>
-     <button className={styles.ATCContainer}>Add to Cart</button>
+     <button onClick={handleAddToCart} className={styles.ATCContainer}>Add to Cart</button>
      <button className={styles.CheckContainer}>Checkout</button>
-     </div>
+     </div> 
       </div>
       </div>
     </div>

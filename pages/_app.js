@@ -6,7 +6,11 @@ import { useState } from 'react';
 
 export default function App({ Component, pageProps }) {
   const [cartOpen, setCartOpen] = useState(false);
+const [cartItems, setCartItems] = useState([]);
 
+const addToCart = (product, selectedSize) => {
+  setCartItems([...cartItems, {...product, size: selectedSize, quantity: quantity }]);
+}
 
   const toggleCart = () => {
     setCartOpen(!cartOpen);

@@ -20,6 +20,7 @@ $text-color: #ffffff;
     padding: 0 20px;
     background-color: $navbar-background;
     color: $text-color;
+    
 }
 
 .nav {
@@ -29,6 +30,7 @@ $text-color: #ffffff;
     gap: 20px;
     @media (max-width: 676px) {
         display: none;
+       
     }
 }
 
@@ -37,14 +39,16 @@ $text-color: #ffffff;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    position: absolute;
+    position: fixed;
+    overflow-y: hidden;
     width: 100%;
     height: 100%;
     top: 0;
     left: 0;
     z-index: 999;
     background-color: $navbar-background;
-    overflow-y: auto;
+    
+    
 }
 
 .navItem {

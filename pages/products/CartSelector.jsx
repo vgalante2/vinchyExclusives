@@ -1,13 +1,23 @@
-import * as React from 'react';
+import  React, { useState, useEffect } from 'react';
 import { Unstable_NumberInput as BaseNumberInput } from '@mui/base/Unstable_NumberInput';
 import RemoveIcon from '@mui/icons-material/Remove';
 import AddIcon from '@mui/icons-material/Add';
 import { styled } from '@mui/system';
 
-function CartSelector() {
+function CartSelector({setQuantity}) {
+ 
+
+  const handleQuantityChange = (event) => {
+    const newQuantity = event.target.value;
+      setQuantity(newQuantity);
+    };
+  
 
     const NumberInput = React.forwardRef(function CustomNumberInput(props, ref) {
-        return (
+        
+      
+      
+      return (
           <BaseNumberInput
             slots={{
               root: StyledInputRoot,
@@ -26,6 +36,8 @@ function CartSelector() {
             }}
             {...props}
             ref={ref}
+
+            onChange={handleQuantityChange}
           />
         );
       });
@@ -141,7 +153,7 @@ function CartSelector() {
 
 
       return (
-        <NumberInput aria-label="Quantity Input" min={1} max={99} />
+        <NumberInput onChange={handleQuantityChange}  aria-label="Quantity Input" min={1} max={99} />
       );
 }
 
