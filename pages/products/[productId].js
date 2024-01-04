@@ -8,6 +8,7 @@ import CartSelector from "./CartSelector";
 function ProductId({ productData }) {
 const [size, setSize] = useState(false);
 const [quantity, setQuantity] = useState([0]);
+const [alert, setAlert] = useState(false);
   
   // If the product data was not found, render a "Not Found" message
   if (!productData) {
@@ -25,17 +26,26 @@ const handleAddToCart = () => {
     const currentCart = JSON.parse(localStorage.getItem('cart')) || [];
     localStorage.setItem('cart', JSON.stringify([...currentCart, cartItem]));
   } else {
-    console.log(err);
+    setAlert(true);
   }
 };
 
 const handleQuantity = (newQuantity) => {
-  props.setQuantity(newQuantity);
+  setQuantity(newQuantity);
 }
+
+
 
   // Render the product details
   return (
+   
     <div className={styles.productSection}>
+     {alert && (
+      <div className={styles.alert}>
+        <p className={styles.alertText} >Please pick a size to add to your cart</p>
+        <button className={styles.alertBtn} onClick ={() => {setAlert(false)}}> got it </button>
+      </div>
+    )}
      <div className={styles.ImageContainer}>
      <img className={styles.ProductImage} src={productData.imgSrc} alt={productData.name} />
      </div>
@@ -54,7 +64,7 @@ const handleQuantity = (newQuantity) => {
        </div>
       </div>
       <div className={styles.CheckoutContainer}>
-      <CartSelector setQuantity={setQuantity} />;
+      <CartSelector setQuantity={handleQuantity} />;
      <div className={styles.CartContainer}>
      <button onClick={handleAddToCart} className={styles.ATCContainer}>Add to Cart</button>
      <button className={styles.CheckContainer}>Checkout</button>

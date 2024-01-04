@@ -36,8 +36,7 @@ function CartSelector({setQuantity}) {
             }}
             {...props}
             ref={ref}
-
-            onChange={handleQuantityChange}
+            
           />
         );
       });

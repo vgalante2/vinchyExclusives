@@ -148,7 +148,7 @@
 }
 ,
 {
-    "id": 12,
+    "id": 13,
     "bestseller": false,
     "imgSrc": "/skel.png",
     "name": "skel",
@@ -160,7 +160,7 @@
 }
 ,
 {
-    "id": 13,
+    "id": 14,
     "bestseller": false,
     "imgSrc": "/hoodie5.png",
     "name": "divine",
