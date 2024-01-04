@@ -20,9 +20,9 @@ const [entered, setEntered] = useState(false);
 useEffect(() => {
   const enterTimestamp = localStorage.getItem('enterTimestamp');
   if (enterTimestamp) {
-      const timeLimit = 24 * 60 * 60 * 1000; // 24 hours in milliseconds
+      const timeLimit = 5 * 60 * 1000; // 24 hours in milliseconds
       const currentTime = new Date().getTime();
-      if (currentTime - parseInt(enterTimestamp, 10) < timeLimit) {
+      if (currentTime - parseInt(enterTimestamp, 10) >= timeLimit) {
           setEntered(true);
       }
   }

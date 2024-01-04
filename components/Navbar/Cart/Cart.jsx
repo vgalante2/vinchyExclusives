@@ -22,7 +22,7 @@ function Cart() {
             const itemQuantity = parseInt(item.quantity, 10);
 
             if (!itemMap[key]) {
-                itemMap[key] = {...item, quantity: itemQuantity};
+                itemMap[key] = {...item, price: item.price, quantity: itemQuantity};
             } else {
                 itemMap[key].quantity += itemQuantity;
             }
@@ -39,7 +39,14 @@ function Cart() {
 
       };
 
-    
+      
+      const calculateTotalPrice = (cartItems) => {
+      return cartItems.reduce((total, item) => {
+        return total + (item.price * item.quantity);
+      }, 0);
+      };
+
+      const totalPrice = calculateTotalPrice(cartItems);
 
 return (
 <div className={styles.cartSection}>
@@ -57,7 +64,7 @@ return (
         </div>
       ))}
 </div>
-     <h1>Total: $  </h1>
+     <h1 className={styles.totalPrice}>Total: $ <span className={styles.totalPriceNum}>{totalPrice}</span></h1>
 </div>
 );
  }

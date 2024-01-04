@@ -15,6 +15,7 @@
     background-color: rgb(0, 0, 0);
     border-radius: 25px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+    gap: 30px;
     
 }
 
@@ -39,4 +40,12 @@ padding: 1rem;
    position: relative;
    left: 150px;
    top: -50px;
+}
+
+.totalPrice {
+    font-family: 'Fredoka', sans-serif;
+}
+
+.totalPriceNum {
+    color: rgb(70, 131, 216);
 }
