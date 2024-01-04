@@ -9,8 +9,27 @@ function Cart() {
 
     useEffect(() => {
       const storedCartItems = JSON.parse(localStorage.getItem('cart')) || [];
-      setCartItems(storedCartItems);
+      const aggregatedItems = aggregateItems(storedCartItems);
+        setCartItems(aggregatedItems);
     }, []);
+
+
+    const aggregateItems = (items) => {
+        const itemMap = {};
+
+        items.forEach(item => {
+            const key = item.id + '-' + item.selectedSize;
+            const itemQuantity = parseInt(item.quantity, 10);
+
+            if (!itemMap[key]) {
+                itemMap[key] = {...item, quantity: itemQuantity};
+            } else {
+                itemMap[key].quantity += itemQuantity;
+            }
+        });
+
+        return Object.values(itemMap);
+    };
 
 
     const handleDeletedItem = (id) => {

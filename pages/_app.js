@@ -13,8 +13,6 @@ export default function App({ Component, pageProps }) {
   const toggleCart = () => {
     setCartOpen(!cartOpen);
   };
-
-
   
   return (
     <>
