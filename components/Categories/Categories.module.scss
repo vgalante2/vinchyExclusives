@@ -100,7 +100,7 @@ background-size: cover; /* This ensures the image covers the entire area */
 
 @media(max-width: 676px) {
     .CategoryContent {
-        grid-template-columns: 70px 70px 70px 70px;
+        grid-template-columns: 40px 40px 40px 40px;
         grid-template-rows: auto;
     }
     .CategoryOne {
@@ -121,6 +121,14 @@ background-size: cover; /* This ensures the image covers the entire area */
 @media(max-width: 1700px) {
     .CategoryContent {
         grid-template-columns: 200px 200px 200px 200px;
+       
+    }
+}
+
+
+@media(max-width: 375px) {
+    .CategoryContent {
+        grid-template-columns: 60px 60px 60px 60px;
        
     }
 }
