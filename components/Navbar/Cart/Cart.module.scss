@@ -9,8 +9,34 @@
     border: none;
     z-index: 1000;
    border: white solid 2px;
+   display: flex;
+   flex-direction: column;
+   padding: 1rem;
     background-color: rgb(0, 0, 0);
     border-radius: 25px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
     
+}
+
+.cartImg {
+    height: 50px;
+    width: auto;
+}
+
+
+.CartSetup {
+padding: 1rem;
+
+}
+
+.cartContent {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.delete {
+   position: relative;
+   left: 150px;
+   top: -50px;
 }

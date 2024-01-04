@@ -60,6 +60,7 @@ padding: 0.5rem 1rem;
 border-radius: 20px;
 font-family: 'Fredoka', sans-serif;
 font-size: 1.5rem;
+cursor: pointer;
 
 &:hover {
     background-color: rgb(57, 121, 248);
@@ -74,6 +75,7 @@ padding: 0.5rem 1rem;
 border-radius: 20px;
 font-family: 'Fredoka', sans-serif;
 font-size: 1.5rem;
+cursor: pointer;
 
 &:hover {
     background-color: rgb(57, 121, 248);
@@ -88,6 +90,7 @@ padding: 0.5rem 1rem;
 border-radius: 20px;
 font-family: 'Fredoka', sans-serif;
 font-size: 1.5rem;
+cursor: pointer;
 
 &:hover {
     background-color: rgb(57, 121, 248);
@@ -112,23 +115,41 @@ font-size: 1.5rem;
 
 .CheckContainer {
     border: 2px rgb(57, 121, 248) solid;
-    background-color: transparent;
+    background-color: rgb(57, 121, 248);
 color: black;
 padding: 0.5rem 1rem;
 border-radius: 20px;
 font-family: 'Fredoka', sans-serif;
 font-size: 1.8rem;
+cursor: pointer;
+transition: transform 0.5s ease-in-out; // Increased duration
+ transform: translate3d(0, 0, 0);
+
+ &:hover {
+    transform: scale(1.1);
+    
+  
+}
 }
 
 .ATCContainer {
-    border: 2px rgb(0, 0, 0) solid;
-    background-color: rgb(99, 147, 244);
+    border: 2px rgb(61, 164, 238) solid;
+    background-color: rgb(255, 255, 255);
 color: black;
 padding: 0.5rem 1rem;
 border-radius: 20px;
 font-family: 'Fredoka', sans-serif;
 font-size: 1.8rem;
+transition: transform 0.5s ease-in-out; // Increased duration
+ transform: translate3d(0, 0, 0);
+ cursor: pointer;
+
+&:hover {
+    transform: scale(1.1);
+    
+  
 }
+} 
 
 
 
