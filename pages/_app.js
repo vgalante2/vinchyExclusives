@@ -13,11 +13,13 @@ export default function App({ Component, pageProps }) {
   const toggleCart = () => {
     setCartOpen(!cartOpen);
   };
+
+
   
   return (
     <>
-      <Navbar toggleCart={toggleCart} />
-      <div className={`contentWrapper ${cartOpen ? 'slideOutContent blurBackground' : ''}`}>
+      <Navbar toggleCart={toggleCart}  />
+      <div className={`contentWrapper ${cartOpen ? 'slideOutContent blurBackground noScroll' : ''}`}>
         <Component {...pageProps} />
       </div>
       <div className={`cartContainer ${cartOpen ? 'slideInCart' : ''}`}>

@@ -136,3 +136,14 @@ a {
 .blurBackground {
   filter: blur(40px);
 }
+
+.noScroll {
+  overflow: hidden;
+  height: 100vh; /* Prevents vertical scrolling */
+  width: 100vw; /* Prevents horizontal scrolling */
+  position: fixed; /* Keeps the element in place */
+  top: 0; /* Aligns to the top */
+  left: 0; /* Aligns to the left */
+  margin: 0; /* Removes default margin */
+  padding: 0; 
+}

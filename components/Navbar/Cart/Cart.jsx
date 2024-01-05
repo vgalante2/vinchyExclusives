@@ -1,12 +1,13 @@
-import React, { useState, useEffect } from 'react';
- import styles from "./Cart.module.scss"
- import ClearIcon from '@mui/icons-material/Clear';
- import Link from 'next/link';
+import React, { useState, useEffect, useRef } from 'react';
+import styles from "./Cart.module.scss"
+import ClearIcon from '@mui/icons-material/Clear';
+import Link from 'next/link';
 
 
-function Cart() {
+
+function Cart({ onClose }) {
     const [cartItems, setCartItems] = useState([]);
-
+   
 
     useEffect(() => {
       const storedCartItems = JSON.parse(localStorage.getItem('cart')) || [];
