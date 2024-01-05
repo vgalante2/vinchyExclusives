@@ -1,7 +1,7 @@
 import styles from './ClothingItem.module.scss';
 import Link from 'next/link';
 
-function ClothingItem({ id, imgSrc, name, price}) {
+function ClothingItem({  id, imgSrc, name, price}) {
    
 
     return (
