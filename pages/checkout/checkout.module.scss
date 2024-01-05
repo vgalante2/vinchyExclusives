@@ -16,6 +16,10 @@
     position: absolute;
     top: 120px;
     z-index: 1000;
+
+    @media(max-width: 676px) {
+       visibility: hidden;
+    }
 }
 
 .CheckoutContainerOne {
@@ -28,6 +32,11 @@ flex-direction: row;
 justify-content: center;
 border: 2px white solid;
 background-color: rgb(255, 255, 255);
+ 
+@media(max-width:676px) {
+    height: 100%;
+    flex-direction: column;
+}
 }
 
 .CheckoutItemRow {
@@ -59,6 +68,10 @@ background-color: rgb(255, 255, 255);
 .CheckoutImg {
     height: 250px;
     width: auto;
+
+    @media(max-width:676px) {
+        height: 50px;
+    }
 }
 
 
@@ -94,7 +107,10 @@ justify-content: space-around;
 align-items: center;
 flex-direction: column;
 
-
+@media(max-width:676px) {
+    height: 30%;
+    flex-direction: column;
+}
 }
 
 .Checkout_Btn {
@@ -105,7 +121,8 @@ flex-direction: column;
     background-color: transparent;
     border: 2px rgb(53, 166, 253) solid 
 
- 
+  
+
 }
 
 .Checkout_Btn:hover {
@@ -116,8 +133,20 @@ flex-direction: column;
 
 .TotalPrice {
 font-size: 3rem;
+
+@media(max-width:676px) {
+    font-size: 2rem;;
+}
 }
 
 .PriceSpan {
     color: rgb(51, 132, 253);
+}
+
+
+@media(max-width:676px) {
+   .Checkout_Btn {
+    width: auto;
+    height: auto;
+   }
 }
