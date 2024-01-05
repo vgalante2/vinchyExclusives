@@ -32,7 +32,7 @@ return (
   
     </div>
     <div className={styles.CheckoutContainerTwo}>
-     <button className={styles.CheckoutBtn}>Checkout</button>
+     <button className={styles.Checkout_Btn}>Checkout</button>
     </div>
 </div>
 )
