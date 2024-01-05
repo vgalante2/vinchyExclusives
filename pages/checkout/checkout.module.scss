@@ -27,7 +27,7 @@ align-items: center;
 flex-direction: row;
 justify-content: center;
 border: 2px white solid;
-background-color: white;
+background-color: rgb(255, 255, 255);
 }
 
 .CheckoutItemRow {
@@ -45,7 +45,7 @@ background-color: white;
     align-items: center;
     flex-direction: column;
     justify-content: center;
-    background-color: white;
+    background-color: transparent;
 }
 
 .CheckoutInfoContainer{
@@ -66,8 +66,22 @@ background-color: white;
 
 .CheckoutInfo {
     color: black;
+    font-family: 'Fredoka', sans-serif;
+    
 }
 
+.CheckoutItemSize {
+font-size: 1.3rem;
+color: rgb(51, 132, 253);
+}
+
+.CheckoutItemQuantity {
+    font-size: 1.3rem;
+}
+
+.CheckoutItemName {
+    font-size: 2rem;
+}
 
 
 .CheckoutContainerTwo {
@@ -76,8 +90,10 @@ background-color: white;
 border: 2px white solid;
 background-color: transparent;
 display: flex;
-justify-content: center;
+justify-content: space-around;
 align-items: center;
+flex-direction: column;
+
 
 }
 
@@ -96,4 +112,12 @@ align-items: center;
     border: rgb(112, 166, 241) 2px solid;
     background-color: rgb(112, 166, 241);
     color: black;
+}
+
+.TotalPrice {
+font-size: 3rem;
+}
+
+.PriceSpan {
+    color: rgb(51, 132, 253);
 }

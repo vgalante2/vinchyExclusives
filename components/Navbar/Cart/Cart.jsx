@@ -48,6 +48,7 @@ function Cart() {
       };
 
       const totalPrice = calculateTotalPrice(cartItems);
+      localStorage.setItem('totalPrice', JSON.stringify(totalPrice));
 
 return (
 <div className={styles.cartSection}>
