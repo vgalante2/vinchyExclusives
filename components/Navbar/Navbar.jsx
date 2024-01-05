@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import { useRouter } from 'next/router';
 import MenuIcon from '@mui/icons-material/Menu';
 import CloseIcon from '@mui/icons-material/Close';
 import ShoppingCartIcon from '@mui/icons-material/ShoppingCart';
@@ -10,6 +11,7 @@ function Navbar({ cartOpen, toggleCart }) {
     const [isMobile, setIsMobile] = useState(false);
     const [menuOpen, setMenuOpen] = useState(false);
    
+    const router = useRouter();
 
     useEffect(() => {
         const handleResize = () => {
@@ -25,13 +27,16 @@ function Navbar({ cartOpen, toggleCart }) {
         setMenuOpen(!menuOpen);
     };
 
-
+  const homePage = (e) => {
+    e.preventDefault()
+    router.push('/');
+  }
   
 
 
     return (
         <div className={styles.navContainer}>
-            <img className={styles.logo} src="/vinchylogo.png" alt="logo" />
+            <img className={styles.logo} onClick={homePage}  src="/vinchylogo.png" alt="logo" />
             <nav className={`${styles.nav} ${menuOpen ? styles.show : ''}`}>
                 <Link className={styles.navItem} href="/">Home</Link>
                 <a className={styles.navItem} href="/#about">About</a>
