@@ -23,7 +23,7 @@ export default function App({ Component, pageProps }) {
         <Component {...pageProps} />
       </div>
       <div className={`cartContainer ${cartOpen ? 'slideInCart' : ''}`}>
-        {cartOpen && <Cart />}
+        {cartOpen && <Cart toggleCart={toggleCart}/>}
       </div>
     </>
   );

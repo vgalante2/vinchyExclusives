@@ -5,9 +5,13 @@ import Link from 'next/link';
 
 
 
-function Cart({ onClose }) {
+function Cart({ toggleCart }) {
     const [cartItems, setCartItems] = useState([]);
-   
+ 
+
+
+  
+
 
     useEffect(() => {
       const storedCartItems = JSON.parse(localStorage.getItem('cart')) || [];
@@ -69,7 +73,7 @@ return (
 </div>
      <h1 className={styles.totalPrice}>Total: $ <span className={styles.totalPriceNum}>{totalPrice}</span></h1>
      <Link href={`/checkout`}>
-<button className={styles.checkOutBtn}>CHECK OUT </button>
+<button onClick={toggleCart} className={styles.checkOutBtn}>CHECK OUT </button>
       </Link>
 </div>
 );
