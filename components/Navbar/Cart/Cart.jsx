@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
  import styles from "./Cart.module.scss"
  import ClearIcon from '@mui/icons-material/Clear';
+ import Link from 'next/link';
 
 
 function Cart() {
@@ -65,6 +66,9 @@ return (
       ))}
 </div>
      <h1 className={styles.totalPrice}>Total: $ <span className={styles.totalPriceNum}>{totalPrice}</span></h1>
+     <Link href={`/checkout`}>
+<button className={styles.checkOutBtn}>CHECK OUT </button>
+      </Link>
 </div>
 );
  }

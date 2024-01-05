@@ -49,3 +49,18 @@ padding: 1rem;
 .totalPriceNum {
     color: rgb(70, 131, 216);
 }
+
+.checkOutBtn {
+    font-size: 1rem;
+    color: white;
+    background-color: transparent;
+    border: white solid 2px;
+    height: 50px;
+    width: 50%;
+    
+
+&:hover {
+   border: rgb(112, 166, 241) 2px solid;
+   color: rgb(112, 166, 241);
+    }
+}
