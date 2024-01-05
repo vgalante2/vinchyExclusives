@@ -21,7 +21,7 @@ const handleNewSize = (newSize) => {
 }
 
 const handleAddToCart = () => {
-  if (size) {
+  if (size && quantity > 0) {
     const cartItem = { ...productData, selectedSize: size, quantity: quantity };
     const currentCart = JSON.parse(localStorage.getItem('cart')) || [];
     localStorage.setItem('cart', JSON.stringify([...currentCart, cartItem]));
@@ -42,7 +42,7 @@ const handleQuantity = (newQuantity) => {
     <div className={styles.productSection}>
      {alert && (
       <div className={styles.alert}>
-        <p className={styles.alertText} >Please pick a size to add to your cart</p>
+        <p className={styles.alertText} >Please pick a size and quantity to add to your cart</p>
         <button className={styles.alertBtn} onClick ={() => {setAlert(false)}}> got it </button>
       </div>
     )}
@@ -64,7 +64,7 @@ const handleQuantity = (newQuantity) => {
        </div>
       </div>
       <div className={styles.CheckoutContainer}>
-      <CartSelector setQuantity={handleQuantity} />;
+      <CartSelector quantity={quantity} setQuantity={handleQuantity} />;
      <div className={styles.CartContainer}>
      <button onClick={handleAddToCart} className={styles.ATCContainer}>Add to Cart</button>
      <button className={styles.CheckContainer}>Checkout</button>

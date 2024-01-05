@@ -20,33 +20,27 @@ const [entered, setEntered] = useState(false);
 useEffect(() => {
   const enterTimestamp = localStorage.getItem('enterTimestamp');
   if (enterTimestamp) {
-      const timeLimit = 5 * 60 * 1000; // 24 hours in milliseconds
-      const currentTime = new Date().getTime();
-      if (currentTime - parseInt(enterTimestamp, 10) >= timeLimit) {
-          setEntered(true);
-      }
+    // If enterTimestamp exists, set entered to true
+    setEntered(true);
   }
 }, []);
 
 const handleEnter = () => {
-  const currentTime = new Date().getTime();
-  localStorage.setItem('enterTimestamp', currentTime.toString());
+  localStorage.setItem('enterTimestamp', 'entered');
   setEntered(true);
 };
 
-
 if (!entered) {
-return (
-  
-<div className={styles.WelcomeContainer}> 
-<video className={styles.WelcomeVideo} src="/VINCHY_PROMO.mp4" autoPlay loop muted />
-<div className={styles.Overlay}></div>
-<div className={styles.contentContainer}>
-<h1 className={styles.h1}>vinchy exclusives <span className={styles.span}>*</span></h1>
-<button className={styles.WelcomeBtn} onClick={handleEnter} > Enter </button>
-</div>
-</div>
-)
+  return (
+    <div className={styles.WelcomeContainer}> 
+      <video className={styles.WelcomeVideo} src="/VINCHY_PROMO.mp4" autoPlay loop muted />
+      <div className={styles.Overlay}></div>
+      <div className={styles.contentContainer}>
+        <h1 className={styles.h1}>vinchy exclusives <span className={styles.span}>*</span></h1>
+        <button className={styles.WelcomeBtn} onClick={handleEnter} > Enter </button>
+      </div>
+    </div>
+  );
 }
 
 

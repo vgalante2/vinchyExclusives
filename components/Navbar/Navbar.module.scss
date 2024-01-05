@@ -11,6 +11,13 @@ $text-color: #ffffff;
     margin-top: 20px;
     height: 120px;
     width: 220px;
+
+    @media (max-width: 676px) {
+        height: 40px;
+        width: auto;
+       padding-bottom: 5px;
+       
+    }
 }
 
 .navContainer {
@@ -26,6 +33,11 @@ $text-color: #ffffff;
     left: 0;        /* Align the left edge of the navbar with the left edge of the viewport */
     right: 0;       /* Ensure the navbar stretches across the full width of the viewport */
     z-index: 1000;  /* Ensure the navbar stays on top of other page elements */
+
+    @media (max-width: 676px) {
+       position: relative;
+
+    }
 }
 
 .nav {

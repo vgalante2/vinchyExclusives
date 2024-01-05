@@ -1,10 +1,10 @@
-import  React, { useState, useEffect } from 'react';
+import  React from 'react';
 import { Unstable_NumberInput as BaseNumberInput } from '@mui/base/Unstable_NumberInput';
 import RemoveIcon from '@mui/icons-material/Remove';
 import AddIcon from '@mui/icons-material/Add';
 import { styled } from '@mui/system';
 
-function CartSelector({setQuantity}) {
+function CartSelector({quantity, setQuantity}) {
  
 
   const handleQuantityChange = (event) => {
@@ -108,6 +108,10 @@ function CartSelector({setQuantity}) {
       
         &:focus-visible {
           outline: 0;
+        }
+
+        @media(max-width: 676px) {
+          width: 30%;
         }
       `,
       );

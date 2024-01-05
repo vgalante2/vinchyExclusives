@@ -8,6 +8,8 @@ align-items: center;
 
 justify-content: space-around;
 height: 90vh;
+
+
 }
 
 
@@ -212,6 +214,8 @@ font-size: 4rem;
     color: white;
     font-family: 'Fredoka', sans-serif;
     font-size: 2rem;
+    text-align: center;
+    line-height: 1.5;
 }
 
 .alertBtn {
@@ -231,4 +235,79 @@ transition: transform 0.3s ease-in-out; // Increased duration
     
   
 }
+}
+
+@media(max-width: 676px) {
+
+    .productSection {
+        flex-direction: column;
+        height: 100vh;
+        justify-content: center;
+        
+    }
+
+    .ProductImage {
+        height: 250px;
+        width: auto;
+        
+    }
+
+    .sizeHead {
+        font-size: 1.4rem;
+       width: 100%;
+       text-align: center;
+    }
+
+    .name {
+        padding-top: 2px;
+        font-size: 1.4rem;
+    }
+
+    .description {
+        font-size: 1rem;
+    }
+
+    .price {
+        font-size: 1.3rem;
+    }
+
+    .small {
+     font-size: 1rem;
+    }
+
+    .medium {
+        font-size: 1rem;
+    }
+
+    .large {
+        font-size: 1rem;
+    }
+
+    .sizeContainer {
+        justify-content: center;
+        width: 100%;
+        
+    }
+
+    .NameContainer {
+        justify-content: center;
+        align-items: center;
+    }
+
+    .InfoContainer {
+        justify-content: center;
+        align-items: center;
+    }
+
+    .sizes {
+        width: 100%;
+        gap: 0px;
+    }
+
+    .ATCContainer {
+        font-size: 1.4rem;
+    }
+    .CheckContainer{
+        font-size: 1.4rem;
+    }
 }
