@@ -94,7 +94,8 @@ background-color: rgb(255, 255, 255);
 .CheckoutInfo {
     color: black;
     font-family: 'Fredoka', sans-serif;
-    gap: 1px;
+    gap: 3px;
+  
 }
 
 .CheckoutItemSize {
@@ -109,6 +110,10 @@ color: rgb(51, 132, 253);
 
 .CheckoutItemName {
     font-size: 1.3rem;
+}
+
+.CheckoutItemPrice {
+    font-size: 0.7rem;
 }
 
 
@@ -147,7 +152,7 @@ flex-direction: column;
 }
 
 .TotalPrice {
-font-size: 0.9rem;
+font-size: 2rem;
 
 @media(max-width:676px) {
     font-size: 1.5rem;
