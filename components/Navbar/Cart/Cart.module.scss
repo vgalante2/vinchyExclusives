@@ -5,7 +5,7 @@
     top: 130px; /* Adjust as needed */
     right: 100px; /* Adjust as needed */
     width: 500px; 
-    height: 100vh;
+    height: 100%;
     border: none;
     overflow-y: auto;
    border: rgba(255, 255, 255, 0) solid 2px;
@@ -38,6 +38,7 @@ padding: 1rem;
 .cartContent {
     display: flex;
     flex-direction: column;
+   
     
 }
 
