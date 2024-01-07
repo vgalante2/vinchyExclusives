@@ -169,6 +169,39 @@
     "description": "descrioption",
     "size": ["small", "medium", "large"]
 
+},
+{
+    "id": 15,
+    "bestseller": false,
+    "imgSrc": "/toons.png",
+    "name": "toons",
+    "price": 49.99,
+    "category": "hoodies",
+    "description": "descrioption",
+    "size": ["small", "medium", "large"]
+
+},
+{
+    "id": 16,
+    "bestseller": false,
+    "imgSrc": "/redpill.png",
+    "name": "redpill",
+    "price": 49.99,
+    "category": "hoodies",
+    "description": "descrioption",
+    "size": ["small", "medium", "large"]
+
+},
+{
+    "id": 17,
+    "bestseller": false,
+    "imgSrc": "/patches.png",
+    "name": "patches",
+    "price": 49.99,
+    "category": "hoodies",
+    "description": "descrioption",
+    "size": ["small", "medium", "large"]
+
 }
 
 
