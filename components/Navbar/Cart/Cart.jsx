@@ -52,7 +52,7 @@ function Cart({ toggleCart }) {
       }, 0);
       };
 
-      const totalPrice = calculateTotalPrice(cartItems);
+      const totalPrice = calculateTotalPrice(cartItems).toFixed(2);
       localStorage.setItem('totalPrice', JSON.stringify(totalPrice));
 
 return (
@@ -71,7 +71,7 @@ return (
         </div>
       ))}
 </div>
-     <h1 className={styles.totalPrice}>Total: $ <span className={styles.totalPriceNum}>{totalPrice}</span></h1>
+     <h1 className={styles.totalPrice}>Total: $ <span className={styles.totalPriceNum}>{totalPrice}</span> </h1>
      <Link href={`/checkout`}>
 <button onClick={toggleCart} className={styles.checkOutBtn}>CHECK OUT </button>
       </Link>
