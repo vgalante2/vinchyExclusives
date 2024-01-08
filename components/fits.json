@@ -13,7 +13,7 @@
 },
 {
     "id": 1,
-    "bestseller": false,
+    "bestseller": true,
     "imgSrc": "/heartshirt.png",
     "name": "faded",
     "price": 34.99,
@@ -137,7 +137,7 @@
 },
 {
     "id": 12,
-    "bestseller": false,
+    "bestseller": true,
     "imgSrc": "/blacksweats.png",
     "name": "floral",
     "price": 44.99,
@@ -172,7 +172,7 @@
 },
 {
     "id": 15,
-    "bestseller": false,
+    "bestseller": true,
     "imgSrc": "/toons.png",
     "name": "toons",
     "price": 49.99,
@@ -183,7 +183,7 @@
 },
 {
     "id": 16,
-    "bestseller": false,
+    "bestseller": true,
     "imgSrc": "/redpill.png",
     "name": "redpill",
     "price": 49.99,
