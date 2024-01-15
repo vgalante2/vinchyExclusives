@@ -3,7 +3,7 @@
 {
     "id": 0,
     "bestseller": true,
-    "imgSrc": "/heartsite.png",
+    "imgSrc": "/heartbreak.png",
     "name": "jaded",
     "price": 49.99,
     "category": "hoodies",
@@ -47,7 +47,7 @@
 {
     "id": 4,
     "bestseller": true,
-    "imgSrc": "/firmament.png",
+    "imgSrc": "/firmament2.png",
     "name": "firmament",
     "price": 49.99,
     "category": "hoodies",
@@ -137,7 +137,7 @@
 },
 {
     "id": 12,
-    "bestseller": true,
+    "bestseller": false,
     "imgSrc": "/blacksweats.png",
     "name": "floral",
     "price": 44.99,
