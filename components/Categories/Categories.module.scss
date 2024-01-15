@@ -101,8 +101,10 @@ background-size: cover; /* This ensures the image covers the entire area */
 
 @media(max-width: 676px) {
     .CategoryContent {
-        grid-template-columns: 40px 40px 40px 40px;
+        grid-template-columns: 111px 100px 108px 40px;
         grid-template-rows: auto;
+        gap: 10px;
+        
     }
     .CategoryOne {
         font-size: 1rem;
@@ -123,12 +125,12 @@ background-size: cover; /* This ensures the image covers the entire area */
 }
 
 
-@media(max-width: 1700px) {
-    .CategoryContent {
-        grid-template-columns: 250px 250px 250px 250px;
+// @media(max-width: 1700px) {
+//     .CategoryContent {
+//         grid-template-columns: 250px 250px 250px 250px;
        
-    }
-}
+//     }
+// }
 
 
 @media(max-width: 375px) {
