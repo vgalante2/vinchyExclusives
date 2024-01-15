@@ -36,6 +36,7 @@ flex-direction: row;
 justify-content: center;
 border: 2px white solid;
 background-color: rgb(255, 255, 255);
+padding: 15px;
  
 @media(max-width:676px) {
     height: auto;
@@ -43,9 +44,7 @@ background-color: rgb(255, 255, 255);
 }
 }
 
-.CheckoutContainerOne {
-    height: 50%;
-}
+
 
 .CheckoutItemRow {
     display: flex;
@@ -129,7 +128,9 @@ flex-direction: column;
 
 @media(max-width:676px) {
   height: auto;
+  padding: 15px;
     flex-direction: column;
+    
 }
 }
 
@@ -141,7 +142,7 @@ flex-direction: column;
     background-color: transparent;
     border: 2px rgb(53, 166, 253) solid 
 
-  
+   
 
 }
 
@@ -169,5 +170,11 @@ font-size: 2rem;
    .Checkout_Btn {
     width: auto;
     height: auto;
+    font-size: 1rem;
+    border-radius: 25px;
+   }
+
+   .CheckoutImageContainer {
+    padding: 10px;
    }
 }
