@@ -4,7 +4,7 @@ import MenuIcon from '@mui/icons-material/Menu';
 import CloseIcon from '@mui/icons-material/Close';
 import ShoppingCartIcon from '@mui/icons-material/ShoppingCart';
 import styles from './Navbar.module.scss';
-import Link from 'next/link'
+import Link from 'next/link';
 import Cart from "./Cart/Cart.jsx";
 
 function Navbar({ cartOpen, toggleCart }) {

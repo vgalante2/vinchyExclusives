@@ -208,6 +208,12 @@ font-size: 2rem;
     flex-direction: column;
     gap: 50px;
     border-radius: 20px;
+
+    @media(max-width: 676px) {
+        height: 150px;
+        width: 300px;
+        gap: 20px;
+    }
 }
 
 .alertText {
@@ -216,6 +222,10 @@ font-size: 2rem;
     font-size: 2rem;
     text-align: center;
     line-height: 1.5;
+
+    @media(max-width: 676px) {
+        font-size: 1rem;
+    }
 }
 
 .alertBtn {
