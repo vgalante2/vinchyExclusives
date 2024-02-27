@@ -14,39 +14,47 @@ import BestSellers from '../components/ClothingSection/BestSellers.jsx';
 import Footer from '../components/Footer/Footer.jsx';
 
 export default function HomePage() {
-const [entered, setEntered] = useState(false);
+  const [entered, setEntered] = useState(false);
 
+  useEffect(() => {
+    const enterTimestamp = localStorage.getItem('enterTimestamp');
+    if (enterTimestamp) {
+      const currentTime = new Date().getTime();
+      const elapsedTime = currentTime - enterTimestamp;
+      const tenMinutes = 20 * 1000; // 10 minutes in milliseconds
 
-useEffect(() => {
-  const enterTimestamp = localStorage.getItem('enterTimestamp');
-  if (enterTimestamp) {
-    // If enterTimestamp exists, set entered to true
+      if (elapsedTime < tenMinutes) {
+        // If less than 10 minutes have passed, set entered to true
+        setEntered(true);
+      } else {
+        // More than 10 minutes have passed, remove the timestamp and require re-entry
+        localStorage.removeItem('enterTimestamp');
+        setEntered(false);
+      }
+    }
+  }, []);
+
+  const handleEnter = () => {
+    const timestamp = new Date().getTime();
+    localStorage.setItem('enterTimestamp', timestamp.toString());
     setEntered(true);
-  }
-}, []);
+  };
 
-const handleEnter = () => {
-  localStorage.setItem('enterTimestamp', 'entered');
-  setEntered(true);
-};
-
-if (!entered) {
-  return (
-    <div className={styles.WelcomeContainer}> 
-      <video className={styles.WelcomeVideo} src="/VINCHY_PROMO.mp4" autoPlay loop muted />
-      <div className={styles.Overlay}></div>
-      <div className={styles.contentContainer}>
-        <h1 className={styles.h1}>vinchy exclusives <span className={styles.span}>*</span></h1>
-        <button className={styles.WelcomeBtn} onClick={handleEnter} > Enter </button>
+  if (!entered) {
+    return (
+      <div className={styles.WelcomeContainer}> 
+        <video className={styles.WelcomeVideo} src="/VINCHY_PROMO.mp4" autoPlay loop muted />
+        <div className={styles.Overlay}></div>
+        <div className={styles.contentContainer}>
+          <h1 className={styles.h1}>vinchy exclusives <span className={styles.span}>*</span></h1>
+          <button className={styles.WelcomeBtn} onClick={handleEnter} > Enter </button>
+        </div>
       </div>
-    </div>
-  );
-}
-
+    );
+  }
 
   return (
     <>
-    
       <Header />   
       <Hoodies />
       <Categories />
@@ -56,8 +64,6 @@ if (!entered) {
       <Promotion />
       <BestSellers />
       <Footer />
-    
-      
     </>
   );
 }
