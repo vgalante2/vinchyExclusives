@@ -1,12 +1,14 @@
 .hoodiesSection {
     width: 100%;
-    height: 100vh;
+    height: auto;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
     background-color: white;
-} 
+    
+    
+}
 
 .heading {
     color: black;  
@@ -17,16 +19,20 @@
 
 
 .hoodiesContainer {
-
+    padding: 1rem 2rem;
     height: 100%;
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
+
+    @media (max-width: 768px) {
+       flex-direction: column;
+    } 
 }
 
 .fitImg {
     height: 250px;
-    
+  
 }
 
